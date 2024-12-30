@@ -1,3 +1,2 @@
-# Default configuration files
-player.json
-results.json
+config.json
+bot/node_modules/

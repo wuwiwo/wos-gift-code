@@ -1,0 +1,77 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Termux Remote Control</title>
+         <style>
+                body {
+                    font-family: sans-serif;
+                    margin: 20px;
+                }
+                input {
+                    width: 100%;
+                    padding: 10px;
+                     margin-bottom: 10px;
+                    box-sizing: border-box;
+                    border: 1px solid #ccc;
+                }
+                #output {
+                    white-space: pre-wrap; /* Preserve line breaks and spaces */
+                    border: 1px solid #ccc;
+                    padding: 10px;
+                    background-color: #f0f0f0;
+                  }
+                button {
+                    width: 100%;
+                    padding: 10px 20px;
+                    background-color: #007bff;
+                    color: white;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+                   button:disabled {
+                     background-color: #6c757d;
+                    cursor: not-allowed
+                    }
+           </style>
+      </head>
+    <body>
+      <h1>Wos-GiftCode Remote Control</h1>
+       <input type="text" id="giftCodeInput" placeholder="Enter your gift code here" maxlength="12" />
+        <br>
+        <button id="runButton">Redeem Gift Code</button>
+       <h2>Output</h2>
+        <pre id="output"></pre>
+        <script>
+            document.getElementById('runButton').addEventListener('click', async () => {
+                 const giftCode = document.getElementById('giftCodeInput').value;
+                 const output = document.getElementById('output');
+                 const button = document.getElementById('runButton');
+                output.textContent = 'Loading ...'
+                 button.disabled = true;
+               try {
+                    const response = await fetch('/redeem_giftcode', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({gift_code: giftCode})
+                    });
+                    const data = await response.json();
+                    button.disabled = false;
+                   if(data.error) {
+                        output.textContent = data.error;
+                   } else {
+                       output.textContent =  data.output;
+                   }
+
+                } catch (e) {
+                     button.disabled = false;
+                    output.textContent = "Error:" + e;
+               }
+             });
+       </script>
+      </body>
+    </html>

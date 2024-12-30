@@ -1,0 +1,56 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>WOS Gift_Code Player Data Management</title>
+     <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+ <div class="container">
+    <div id="connection-status" class="connection-status">
+           <span id="connection-indicator" class="indicator"></span>
+           <span id="connection-text" class="status-text"></span>
+      </div>
+     <h1>JSON Data Management</h1>
+     <div id="message-container" class="message-container"></div>
+     <div class="data-section">
+         <h2>Player List</h2>
+         <div class="loading-indicator" style="display:none">Loading...</div>
+         <table id="data-table">
+             <thead>
+             <tr>
+                 <th>
+                     <input type="checkbox" id="select-all">
+                 </th>
+                 <th>Original Name</th>
+                 <th>ID</th>
+                 <th>Actions</th>
+             </tr>
+             </thead>
+             <tbody>
+             </tbody>
+         </table>
+         <button id="delete-selected" class="btn btn-danger" style="display:none">Delete Selected</button>
+     </div>
+
+     <div class="form-section-container">
+          <button id="toggle-add-form" class="add-form-button">Add New Player</button>
+         <div class="form-section collapsed">
+              <form id="add-form">
+                 <div class="form-group">
+                     <label for="original_name">Original Name:</label>
+                     <input type="text" id="original_name" name="original_name" required>
+                 </div>
+                 <div class="form-group">
+                     <label for="id">ID:</label>
+                    <input type="number" id="id" name="id"   required>
+                 </div>
+                 <button type="submit" class="btn btn-primary">Add Player</button>
+             </form>
+         </div>
+     </div>
+ </div>
+ <script src="script.js"></script>
+ </body>
+ </html>

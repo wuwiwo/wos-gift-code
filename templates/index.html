@@ -1,81 +1,112 @@
 <!DOCTYPE html>
- <html lang="en">
- <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Termux Remote Control</title>
-      <style>
-             body {
-                 font-family: sans-serif;
-                 margin: 20px;
-             }
-             input {
-                 width: 100%;
-                 padding: 10px;
-                  margin-bottom: 10px;
-                 box-sizing: border-box;
-                 border: 1px solid #ccc;
-             }
-             #output {
-                 white-space: pre-wrap; /* Preserve line breaks and spaces */
-                 border: 1px solid #ccc;
-                 padding: 10px;
-                 background-color: #f0f0f0;
-               }
-             button {
-                  padding: 10px 20px;
-                 background-color: #007bff;
-                 color: white;
-                 border: none;
-                 border-radius: 4px;
-                 cursor: pointer;
-             }
-                button:disabled {
-                  background-color: #6c757d;
-                 cursor: not-allowed
-                 }
-        </style>
-   </head>
- <body>
-   <h1>Wos-GiftCode Remote Control</h1>
-    <input type="text" id="giftCodeInput" placeholder="Enter your gift code here" maxlength="12" />
-  <div class="row">
-  <label for="restart">Restart</label>
-        <input type="checkbox" id="restart" name="restart" />
-  <div/>
-      
-     <button id="runButton">Redeem Gift Code</button>
-    <h2>Output</h2>
-     <pre id="output"></pre>
-     <script>
-         document.getElementById('runButton').addEventListener('click', async () => {
-              const giftCode = document.getElementById('giftCodeInput').value;
-             const restart = document.getElementById('restart').checked;
-              const output = document.getElementById('output');
-              const button = document.getElementById('runButton');
-             output.textContent = 'Loading ...'
-              button.disabled = true;
-            try {
-                 const response = await fetch('/redeem_giftcode', {
-                     method: 'POST',
-                     headers: {
-                         'Content-Type': 'application/json'
-                     },
-                     body: JSON.stringify({gift_code: giftCode, restart: restart})
-                 });
-                 const data = await response.json();
-                 button.disabled = false;
-                if(data.error) {
-                     output.textContent = data.error;
-                } else {
-                    output.textContent =  data.output;
-                }
+<html lang="en">
 
-             } catch (e) {
-                  button.disabled = false;
-                 output.textContent = "Error:" + e;
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.1/daisyui.css" rel="stylesheet" type="text/css" />
+    <title>Termux Remote Control</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            padding: 0 1rem;
+        }
+        .input{
+            letter-spacing: 1.5px;
+        }
+        #output {
+            white-space: pre-wrap; /* Preserve line breaks and spaces */
+            border: 1px solid #ccc;
+            padding: 10px;
+          }
+        button {
+             padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+           button:disabled {
+             background-color: #6c757d;
+            cursor: not-allowed
             }
-          });
+    </style>
+</head>
+
+<body>
+<div role="tablist" class="tabs tabs-box flex">
+  <a role="tab" class="tab tab-active flex-1">Controller</a>
+  <a role="tab" class="tab tooltip  tooltip-bottom flex-1" data-tip="Not yet developed">History</a>
+  <a role="tab" class="tab flex-1 tooltip tooltip-bottom" data-tip="Not yet developed">Setting</a>
+</div>
+    <div class="card  bg-base-100 shadow-xl">
+        <div class="card-body">
+            <h1 class="badge badge-secondary badge-outline text-xs">Wos-GiftCode </h1>
+            <h1 class="card-title text-3xl">Remote Control</h1>
+            <fieldset class="fieldset w-xs bg-base-200 border border-base-300 p-4 rounded-box">
+                <legend class="fieldset-legend">Gift Code</legend>
+                <input type="text" class="input" id="giftCodeInput" placeholder="Enter your gift code here" maxlength="12" />
+                <p class="fieldset-label">You Enter Gift Code</p>
+            </fieldset>
+            <div class="row">
+                <!-- <label for="restart">Restart</label> -->
+                <!-- <input type="checkbox" id="restart" name="restart" /> -->
+                <fieldset class="fieldset p-4 bg-base-100 border border-base-300 rounded-box w-full">
+                    <legend class="fieldset-legend">Restart</legend>
+                    <label class="fieldset-label">
+                        <input type="checkbox" class="checkbox" id="restart" name="restart" />
+                        Check to Reclaim
+                    </label>
+                </fieldset>
+            </div>
+            <button class="btn btn-lg btn-secondary" id="runButton">Redeem Gift Code</button>
+        </div>
+    </div>
+    <div class="card card-border bg-base-100 mt-10">
+        <div class="card-body">
+            <p class="fieldset-label text-xs ">output</p>
+            <div class="mockup-code w-full">
+                <pre data-prefix="$" id="output"></pre>
+                </pre>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        document.getElementById('runButton').addEventListener('click', async () => {
+             const giftCode = document.getElementById('giftCodeInput').value;
+            const restart = document.getElementById('restart').checked;
+             const output = document.getElementById('output');
+             const button = document.getElementById('runButton');
+            output.textContent = 'Loading ...'
+             button.disabled = true;
+           try {
+                const response = await fetch('/redeem_giftcode', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({gift_code: giftCode, restart: restart})
+                });
+                const data = await response.json();
+                button.disabled = false;
+               if(data.error) {
+                    output.textContent = data.error;
+               } else {
+                   output.textContent =  data.output;
+               }
+        
+            } catch (e) {
+                 button.disabled = false;
+                output.textContent = "Error:" + e;
+           }
+         });
     </script>
-   </body>
- </html>
+</body>
+
+</html>

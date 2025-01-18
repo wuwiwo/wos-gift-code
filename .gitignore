@@ -1,11 +1,3 @@
 config.json
-<<<<<<< HEAD
-<<<<<<< HEAD
-bot/node_modules/
-=======
-bot/node_modules/
->>>>>>> 8cdc527eec8472bfd01c7d6dcd8a1df095b72823
-=======
 bot/node_modules/
 webhook.log
->>>>>>> d18bd3b8b80bc67d53e4dbd96fd9f23372e214cf

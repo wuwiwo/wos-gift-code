@@ -7,10 +7,11 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.1/daisyui.css" rel="stylesheet" type="text/css" />
     <title>Termux Remote Control</title>
     <style>
-        body {
+        html>body {
             font-family: sans-serif;
-            margin: 20px;
-            padding: 0 1rem;
+            margin: 4px auto;
+            padding: 2rem 1rem;
+            max-width: 768px;
         }
         .input{
             letter-spacing: 1.5px;
@@ -47,7 +48,7 @@
             <h1 class="card-title text-3xl">Remote Control</h1>
             <fieldset class="fieldset w-xs bg-base-200 border border-base-300 p-4 rounded-box">
                 <legend class="fieldset-legend">Gift Code</legend>
-                <input type="text" class="input" id="giftCodeInput" placeholder="Enter your gift code here" maxlength="12" />
+                <input type="text" class="input w-full" id="giftCodeInput" placeholder="Enter your gift code here" maxlength="12" />
                 <p class="fieldset-label">You Enter Gift Code</p>
             </fieldset>
             <div class="row">
@@ -68,7 +69,7 @@
         <div class="card-body">
             <p class="fieldset-label text-xs ">output</p>
             <div class="mockup-code w-full">
-                <pre data-prefix="$" id="output"></pre>
+                <pre class="text-xs" data-prefix="$" id="output">
                 </pre>
             </div>
         </div>

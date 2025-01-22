@@ -1,6 +1,4 @@
 config.json
-<<<<<<< HEAD
+results.json
+webhook.log
 bot/node_modules/
-=======
-bot/node_modules/
->>>>>>> 8cdc527eec8472bfd01c7d6dcd8a1df095b72823

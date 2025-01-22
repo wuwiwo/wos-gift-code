@@ -1,11 +1,6 @@
 """
-This script redeems a gift code for players of the mobile game 
-Whiteout Survival by using their API
-
-It requires an input file that contains all player IDs and 
-tracks its progress in an output file to be able to continue
-in case it runs into errors without retrying to redeem a code
-for everyone
+This script redeems gift codes for players of the mobile game Whiteout Survival via their API.
+It handles progress tracking and resumption capabilities to avoid reprocessing players.
 """
 
 import argparse
@@ -14,167 +9,197 @@ import json
 import sys
 import time
 from os.path import exists
+from typing import Dict, List
 
 import requests
 from requests.adapters import HTTPAdapter, Retry
+from requests.sessions import Session
 
-# Handle arguments the script is called with
-parser = argparse.ArgumentParser()
-parser.add_argument("-c", "--code", required=True)
-parser.add_argument("-f", "--player-file", dest="player_file", default="player.json")
-parser.add_argument("-r", "--results-file", dest="results_file", default="results.json")
-parser.add_argument("--restart", dest="restart", action="store_true")
-args = parser.parse_args()
+# Constants
+API_URL = "https://wos-giftcode-api.centurygame.com/api"
+API_SALT = "tB87#kPtkxqOS2"
+HEADERS = {"Content-Type": "application/x-www-form-urlencoded", "Accept": "application/json"}
+STATUS_SUCCESS = "Successful"
+STATUS_FAILURE = "Unsuccessful"
+SAVE_INTERVAL = 10  # Save progress every 10 players processed
 
-# Open and read the user files
-with open(args.player_file, encoding="utf-8") as player_file:
-    players = json.loads(player_file.read())
 
-# Initalize results to not error if no results file exists yet
-results = []
-
-# If a results file exists, load it
-if exists(args.results_file):
-    with open(args.results_file, encoding="utf-8") as results_file:
-        results = json.loads(results_file.read())
-
-# Retrieve the result set if it exists or create an empty one
-# We make sure that we get a view of the dictionary so we can modify
-# it in our code and simply write the entire result list to file again later
-found_item = next((result for result in results if result["code"] == args.code), None)
-
-if found_item is None:
-    print("New code: " + args.code + " adding to results file and processing.")
-    new_item = {"code": args.code, "status": {}}
-    results.append(new_item)
-    result = new_item
-else:
-    result = found_item
-
-# Some variables that are used to tracking progress
-counter_successfully_claimed = 0
-counter_already_claimed = 0
-counter_error = 0
-
-URL = "https://wos-giftcode-api.centurygame.com/api"
-# The salt is appended to the string that is then signed using md5 and sent as part of the request
-SALT = "tB87#kPtkxqOS2"
-HTTP_HEADER = {
-    "Content-Type": "application/x-www-form-urlencoded",
-    "Accept": "application/json",
-}
-
-i = 0
-
-# Enable retry login and backoff behavior so if you have a large number of players (> 30) it'll not fail
-# Default rate limits of WOS API is 30 in 1 min.
-r = requests.Session()
-retry_config = Retry(
-    total=5, backoff_factor=1, status_forcelist=[429], allowed_methods=False
-)
-r.mount("https://", HTTPAdapter(max_retries=retry_config))
-
-for player in players:
-
-    # Print progress bar
-    i += 1
-
-    print(
-        "\x1b[K"
-        + str(i)
-        + "/"
-        + str(len(players))
-        + " complete. Redeeming for "
-        + player["original_name"],
-        end="\r",
-        flush=True,
+def parse_args() -> argparse.Namespace:
+    """Parse command line arguments."""
+    parser = argparse.ArgumentParser(
+        description="Redeem gift codes for Whiteout Survival players",
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter,
     )
+    parser.add_argument("-c", "--code", required=True, help="Gift code to redeem")
+    parser.add_argument("-f", "--player-file", default="player.json", 
+                      help="JSON file containing player data")
+    parser.add_argument("-r", "--results-file", default="results.json",
+                      help="File to track redemption results")
+    parser.add_argument("--restart", action="store_true",
+                      help="Force reprocess all players regardless of previous results")
+    return parser.parse_args()
 
-    # Check if the code has been redeemed for this player already
-    # Continue to the next iteration if it has been
-    if result["status"].get(player["id"]) == "Successful" and not args.restart:
-        counter_already_claimed += 1
-        continue
 
-    # This is necessary because we reload the page every 5 players
-    # and the website isn't sometimes ready before we continue
-    request_data = {"fid": player["id"], "time": time.time_ns()}
-    request_data["sign"] = hashlib.md5(
-        (
-            "fid=" + request_data["fid"] + "&time=" + str(request_data["time"]) + SALT
-        ).encode("utf-8")
-    ).hexdigest()
-
-    # Login the player
-    # It is enough to send the POST request, we don't need to store any cookies/session tokens
-    # to authenticate during the next request
-    login_request = r.post(
-        URL + "/player", data=request_data, headers=HTTP_HEADER, timeout=30
-    )
-    login_response = login_request.json()
-
-    # Login failed for user, report, count error and continue gracefully to complete all other players
-    if login_response["msg"] != "success":
-        print(
-            "Login not possible for player: "
-            + player["original_name"]
-            + " / "
-            + player["id"]
-            + " - validate their player ID. Skipping."
-        )
-        counter_error += 1
-        continue
-
-    # Create the request data that contains the signature and the code
-    request_data["cdk"] = args.code
-    request_data["sign"] = hashlib.md5(
-        (
-            "cdk="
-            + request_data["cdk"]
-            + "&fid="
-            + request_data["fid"]
-            + "&time="
-            + str(request_data["time"])
-            + SALT
-        ).encode("utf-8")
-    ).hexdigest()
-
-    # Send the gif code redemption request
-    redeem_request = r.post(
-        URL + "/gift_code", data=request_data, headers=HTTP_HEADER, timeout=30
-    )
-    redeem_response = redeem_request.json()
-
-    # In case the gift code is broken, exit straight away
-    if redeem_response["err_code"] == 40014:
-        print("\nThe gift code doesn't exist!")
+def load_json_file(filename: str) -> List[Dict]:
+    """Load data from a JSON file."""
+    try:
+        with open(filename, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        if filename == "results.json":
+            return []  # Results file is optional
+        print(f"Error: Required file {filename} not found!")
         sys.exit(1)
-    elif redeem_response["err_code"] == 40007:
-        print("\nThe gift code is expired!")
+    except json.JSONDecodeError:
+        print(f"Error: Invalid JSON in {filename}!")
         sys.exit(1)
-    elif redeem_response["err_code"] == 40008:  # ALREADY CLAIMED
-        counter_already_claimed += 1
-        result["status"][player["id"]] = "Successful"
-    elif redeem_response["err_code"] == 20000:  # SUCCESSFULLY CLAIMED
-        counter_successfully_claimed += 1
-        result["status"][player["id"]] = "Successful"
-    elif redeem_response["err_code"] == 40004:  # TIMEOUT RETRY
-        result["status"][player["id"]] = "Unsuccessful"
+
+
+def save_results(data: List[Dict], filename: str) -> None:
+    """Save results to JSON file."""
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
+
+
+def create_http_session() -> Session:
+    """Create configured HTTP session with retry policy."""
+    session = requests.Session()
+    retries = Retry(
+        total=5,
+        backoff_factor=1,
+        status_forcelist=[429, 500, 502, 503, 504],
+        allowed_methods=["POST"],
+    )
+    session.mount("https://", HTTPAdapter(max_retries=retries))
+    return session
+
+
+def generate_signature(params: List[tuple], salt: str) -> str:
+    """Generate MD5 signature for API requests."""
+    param_str = "&".join([f"{k}={v}" for k, v in params])
+    return hashlib.md5(f"{param_str}{salt}".encode()).hexdigest()
+
+
+def process_player(player: Dict, code: str, session: Session, result: Dict, counters: Dict) -> None:
+    """Process gift code redemption for a single player."""
+    player_id = player["id"]
+    
+    # Skip already processed players unless restart flag is set
+    if not args.restart and result["status"].get(player_id) == STATUS_SUCCESS:
+        counters["already_claimed"] += 1
+        return
+
+    # Prepare login request
+    timestamp = time.time_ns()
+    login_params = [
+        ("fid", player_id),
+        ("time", timestamp),
+    ]
+    login_data = {
+        "fid": player_id,
+        "time": timestamp,
+        "sign": generate_signature(login_params, API_SALT),
+    }
+
+    # Execute login
+    try:
+        login_response = session.post(f"{API_URL}/player", data=login_data, headers=HEADERS, timeout=30)
+        login_response.raise_for_status()
+        if login_response.json().get("msg") != "success":
+            raise requests.exceptions.RequestException("Login failed")
+    except Exception as e:
+        print(f"\nLogin failed for {player['original_name']} ({player_id}): {str(e)}")
+        counters["errors"] += 1
+        return
+
+    # Prepare redemption request
+    redeem_params = [
+        ("cdk", code),
+        ("fid", player_id),
+        ("time", timestamp),
+    ]
+    redeem_data = {
+        "cdk": code,
+        "fid": player_id,
+        "time": timestamp,
+        "sign": generate_signature(redeem_params, API_SALT),
+    }
+
+    # Execute redemption
+    try:
+        redeem_response = session.post(f"{API_URL}/gift_code", data=redeem_data, headers=HEADERS, timeout=30)
+        redeem_response.raise_for_status()
+        response_data = redeem_response.json()
+    except Exception as e:
+        print(f"\nRedemption failed for {player['original_name']} ({player_id}): {str(e)}")
+        counters["errors"] += 1
+        result["status"][player_id] = STATUS_FAILURE
+        return
+
+    # Handle API response codes
+    error_code = response_data.get("err_code")
+    if error_code == 20000:
+        counters["success"] += 1
+        result["status"][player_id] = STATUS_SUCCESS
+    elif error_code == 40008:
+        counters["already_claimed"] += 1
+        result["status"][player_id] = STATUS_SUCCESS
+    elif error_code in (40014, 40007):
+        print(f"\nFatal error: {response_data.get('msg', 'Invalid code')}")
+        sys.exit(1)
     else:
-        result["status"][player["id"]] = "Unsuccessful"
-        print("\nError occurred: " + str(redeem_response))
-        counter_error += 1
+        counters["errors"] += 1
+        result["status"][player_id] = STATUS_FAILURE
+        print(f"\nUnexpected response for {player['original_name']}: {response_data}")
 
-with open(args.results_file, "w", encoding="utf-8") as fp:
-    json.dump(results, fp)
 
-# Print general stats
-print(
-    "\nSuccessfully claimed gift code for "
-    + str(counter_successfully_claimed)
-    + " players.\n"
-    + str(counter_already_claimed)
-    + " had already claimed their gift. \nErrors ocurred for "
-    + str(counter_error)
-    + " players."
-)
+def main():
+    """Main execution flow."""
+    global args  # pylint: disable=global-variable-undefined
+    args = parse_args()
+    
+    # Initialize data stores
+    players = load_json_file(args.player_file)
+    all_results = load_json_file(args.results_file)
+    
+    # Find or create entry for current code
+    result_entry = next((r for r in all_results if r["code"] == args.code), None)
+    if not result_entry:
+        result_entry = {"code": args.code, "status": {}}
+        all_results.append(result_entry)
+    
+    # Initialize counters
+    counters = {
+        "success": 0,
+        "already_claimed": 0,
+        "errors": 0
+    }
+
+    session = create_http_session()
+    total_players = len(players)
+    
+    print(f"Processing {total_players} players for code: {args.code}")
+    
+    try:
+        for idx, player in enumerate(players, 1):
+            # Print progress with clean output
+            print(f"Processing {idx}/{total_players}: {player['original_name']}".ljust(80), end="\r")
+            
+            process_player(player, args.code, session, result_entry, counters)
+            
+            # Periodic save
+            if idx % SAVE_INTERVAL == 0:
+                save_results(all_results, args.results_file)
+    finally:
+        # Final save to capture any remaining changes
+        save_results(all_results, args.results_file)
+    
+    # Print summary (修复此处变量名)
+    print(
+        f"\n成功兑换 / Successfully claimed: {counters['success']}"
+        f"\n已兑换 / Already claimed: {counters['already_claimed']}"
+        f"\n错误 / Errors: {counters['errors']}"
+    )
+
+if __name__ == "__main__":
+    main()

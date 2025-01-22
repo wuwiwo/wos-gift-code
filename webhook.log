@@ -4348,3 +4348,1730 @@
 2025-01-18 16:16:30,189 - WARNING - ✅ Gift code not provided in request
 2025-01-18 16:16:30,190 - INFO - 127.0.0.1 - - [18/Jan/2025 16:16:30] "[31m[1mPOST /redeem_giftcode HTTP/1.1[0m" 400 -
 2025-01-18 16:16:44,438 - INFO - 127.0.0.1 - - [18/Jan/2025 16:16:44] "GET / HTTP/1.1" 200 -
+2025-01-22 21:34:43,605 - WARNING -  * Debugger is active!
+2025-01-22 21:34:43,664 - INFO -  * Debugger PIN: 701-001-542
+2025-01-22 21:39:17,885 - INFO - 127.0.0.1 - - [22/Jan/2025 21:39:17] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-01-22 21:39:24,321 - INFO - 127.0.0.1 - - [22/Jan/2025 21:39:24] "GET / HTTP/1.1" 200 -
+2025-01-22 21:39:28,696 - INFO - 127.0.0.1 - - [22/Jan/2025 21:39:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-22 21:40:56,482 - INFO - Message sent to Webhook successfully!
+2025-01-22 21:40:56,491 - INFO - 127.0.0.1 - - [22/Jan/2025 21:40:56] "POST /redeem_giftcode HTTP/1.1" 200 -
+2025-01-22 22:23:56,349 - INFO -  * Detected change in '/data/data/com.termux/files/home/wos-gift-code/redeem_code.py', reloading
+2025-01-22 22:23:57,714 - WARNING -  * Debugger is active!
+2025-01-22 22:23:57,767 - INFO -  * Debugger PIN: 285-178-945
+2025-01-22 22:28:19,267 - INFO -  * Detected change in '/data/data/com.termux/files/home/wos-gift-code/flask_app.py', reloading
+2025-01-22 22:30:18 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.228.37.59:5000
+2025-01-22 22:30:18 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-22 22:30:26 - INFO - 127.0.0.1 - - [22/Jan/2025 22:30:26] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-01-22 22:30:33 - INFO - 127.0.0.1 - - [22/Jan/2025 22:30:33] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-01-22 22:30:40 - INFO - 127.0.0.1 - - [22/Jan/2025 22:30:40] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-01-22 22:30:46 - INFO - 127.0.0.1 - - [22/Jan/2025 22:30:46] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-01-22 22:30:51 - INFO - 127.0.0.1 - - [22/Jan/2025 22:30:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-22 22:30:52 - INFO - 127.0.0.1 - - [22/Jan/2025 22:30:52] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-01-22 22:30:55 - INFO - 127.0.0.1 - - [22/Jan/2025 22:30:55] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-01-22 22:35:34 - INFO - 127.0.0.1 - - [22/Jan/2025 22:35:34] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-01-22 22:35:42 - INFO - 127.0.0.1 - - [22/Jan/2025 22:35:42] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-01-22 22:35:47 - INFO - 127.0.0.1 - - [22/Jan/2025 22:35:47] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-01-22 22:35:54 - INFO - 127.0.0.1 - - [22/Jan/2025 22:35:54] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-01-22 22:36:08 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.228.37.59:5000
+2025-01-22 22:36:08 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-22 22:36:11 - INFO - 127.0.0.1 - - [22/Jan/2025 22:36:11] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-01-22 22:36:17 - INFO - 127.0.0.1 - - [22/Jan/2025 22:36:17] "GET / HTTP/1.1" 200 -
+2025-01-22 22:36:28 - INFO - 127.0.0.1 - - [22/Jan/2025 22:36:28] "POST /redeem_giftcode HTTP/1.1" 200 -
+2025-01-22 22:43:31 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.228.37.59:5000
+2025-01-22 22:43:31 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-22 22:43:36 - INFO - 127.0.0.1 - - [22/Jan/2025 22:43:36] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-01-22 22:43:43 - INFO - 127.0.0.1 - - [22/Jan/2025 22:43:43] "GET / HTTP/1.1" 200 -
+2025-01-22 22:43:46 - INFO - 127.0.0.1 - - [22/Jan/2025 22:43:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-22 22:43:54 - INFO - 127.0.0.1 - - [22/Jan/2025 22:43:54] "POST /redeem_giftcode HTTP/1.1" 200 -
+2025-01-22 22:46:37 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.228.37.59:5000
+2025-01-22 22:46:37 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-22 22:46:41 - INFO - 127.0.0.1 - - [22/Jan/2025 22:46:41] "GET / HTTP/1.1" 200 -
+2025-01-22 22:46:44 - INFO - 127.0.0.1 - - [22/Jan/2025 22:46:44] "GET / HTTP/1.1" 200 -
+2025-01-22 22:46:52 - ERROR - 处理失败 Process failed: 'successfully' is not in list
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 86, in redeem_giftcode
+    stats = parse_script_output(result.stdout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 136, in parse_script_output
+    stats['success'] = int(parts[parts.index("successfully")-1] if "Successfully" in line else parts[1])
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 'successfully' is not in list
+2025-01-22 22:46:52 - INFO - 127.0.0.1 - - [22/Jan/2025 22:46:52] "[35m[1mPOST /redeem_giftcode HTTP/1.1[0m" 500 -
+2025-01-22 22:46:55 - ERROR - 处理失败 Process failed: 'successfully' is not in list
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 86, in redeem_giftcode
+    stats = parse_script_output(result.stdout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 136, in parse_script_output
+    stats['success'] = int(parts[parts.index("successfully")-1] if "Successfully" in line else parts[1])
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 'successfully' is not in list
+2025-01-22 22:46:55 - INFO - 127.0.0.1 - - [22/Jan/2025 22:46:55] "[35m[1mPOST /redeem_giftcode HTTP/1.1[0m" 500 -
+2025-01-22 22:47:44 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.228.37.59:5000
+2025-01-22 22:47:44 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-22 22:47:48 - INFO - 127.0.0.1 - - [22/Jan/2025 22:47:48] "GET / HTTP/1.1" 200 -
+2025-01-22 22:47:57 - ERROR - 处理失败 Process failed: 'successfully' is not in list
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 86, in redeem_giftcode
+    stats = parse_script_output(result.stdout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 136, in parse_script_output
+    stats['success'] = int(parts[parts.index("successfully")-1] if "Successfully" in line else parts[1])
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 'successfully' is not in list
+2025-01-22 22:47:57 - INFO - 127.0.0.1 - - [22/Jan/2025 22:47:57] "[35m[1mPOST /redeem_giftcode HTTP/1.1[0m" 500 -
+2025-01-22 22:49:08 - ERROR - 处理失败 Process failed: 'successfully' is not in list
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 86, in redeem_giftcode
+    stats = parse_script_output(result.stdout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 136, in parse_script_output
+    stats['success'] = int(parts[parts.index("successfully")-1] if "Successfully" in line else parts[1])
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 'successfully' is not in list
+2025-01-22 22:49:08 - INFO - 127.0.0.1 - - [22/Jan/2025 22:49:08] "[35m[1mPOST /redeem_giftcode HTTP/1.1[0m" 500 -
+2025-01-22 22:51:39 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.228.37.59:5000
+2025-01-22 22:51:39 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-22 22:51:44 - INFO - 127.0.0.1 - - [22/Jan/2025 22:51:44] "GET / HTTP/1.1" 200 -
+2025-01-22 22:51:52 - DEBUG - 脚本标准输出: Processing 79 players for code: 2025TPGSWC
+Processing 1/79: 實沙緒                                                            
+Processing 2/79: 小沙緒                                                            
+Processing 3/79: 魚小 2                                                           
+Processing 4/79: 咳咳                                                             
+Processing 5/79: 咳咳2                                                            
+Processing 6/79: 咳咳3                                                            
+Processing 7/79: 小小魚                                                            
+Processing 8/79: [NEW]小小小魚                                                      
+Processing 9/79: 魚魚                                                             
+Processing 10/79: 小淘氣                                                           
+Processing 11/79: [CKK]ʚ繁星點點_CTK_HoShiɞ                                         
+Processing 12/79: Nino                                                          
+Processing 13/79: 貓貓Tap                                                         
+Processing 14/79: [MVP]FoamCat                                                  
+Processing 15/79: 時空貓                                                           
+Processing 16/79: [mvp]時空喵                                                      
+Processing 17/79: [No1]Cherish                                                  
+Processing 18/79: [No1]Alicey                                                   
+Processing 19/79: [DOG]Gotenks                                                  
+Processing 20/79: [NIX]ᗩᗰᗷᘔOᑎE                                                  
+Processing 21/79: [No1]PSY                                                      
+Processing 22/79: [No1]想入菲菲                                                     
+Processing 23/79: [No1]RURU                                                     
+Processing 24/79: [DOG]Jax                                                      
+Processing 25/79: [No1]Yuyu                                                     
+Processing 26/79: [No1] nino                                                    
+Processing 27/79: 9m88                                                          
+Processing 28/79: [MVP]鱼 yuyu                                                   
+Processing 29/79: xiaoyu1666                                                    
+Processing 30/79: 朗囝ʕ·͡ᴥ፝֟·ʔ                                                    
+Processing 31/79: Mochi 모찌 아이스크림                                                
+Processing 32/79: Freedom                                                       
+Processing 33/79: Guel                                                          
+Processing 34/79: Fury of July                                                  
+Processing 35/79: Winderen                                                      
+Processing 36/79: Luke2015                                                      
+Processing 37/79: 秋天一枝草                                                         
+Processing 38/79: 最有性价比                                                         
+Processing 39/79: Naikaa                                                        
+Processing 40/79: FallenAngel                                                   
+Processing 41/79: Benji                                                         
+Processing 42/79: iamnotokay                                                    
+Processing 43/79: Koala                                                         
+Processing 44/79: Jewels                                                        
+Processing 45/79: Slack                                                         
+Processing 46/79: Little_Yu                                                     
+Processing 47/79: Lord Patato                                                   
+Processing 48/79: Dmytro                                                        
+Processing 49/79: Redbulldozer                                                  
+Processing 50/79: CTL༒                                                          
+Processing 51/79: KumaKuma                                                      
+Processing 52/79: zotch                                                         
+Processing 53/79: Six                                                           
+Processing 54/79: CheapH0                                                       
+Processing 55/79: Commander Cassc                                               
+Processing 56/79: Maximus                                                       
+Processing 57/79: [No1]熊熊霸王熊_Bear Rex                                           
+Processing 58/79: [No1]BA҉D҉BU҉N҉N҉Y×͜×                                         
+Processing 59/79: [No1]熊熊小點心                                                    
+Processing 60/79: [CKK]ʚ香奈兒_CTK_Chanelɞ                                         
+Processing 61/79: [CKK]ʚ小惡魔_CTK_ɞ                                               
+Processing 62/79: [PNG]꧁ᴹᴿ᭄༒SHADOW༒꧂                                            
+Processing 63/79: alpk                                                          
+Processing 64/79: [AgE]代理鱼                                                      
+Processing 65/79: 小天使鱼                                                          
+Processing 66/79: [PNG]鱼鱼鱼                                                      
+Processing 67/79: 沙鱼壳                                                           
+Processing 68/79: [PHX]Frigo                                                    
+Processing 69/79: [EOS]RΛMXIΦN                                                  
+Processing 70/79: [QAD]Athena                                                   
+Processing 71/79: [EOS]BigusDickus                                              
+Processing 72/79: [MVP]schdoel                                                  
+Processing 73/79: [EOS]HelenaGK                                                 
+Processing 74/79: [QAD]Lαԃყ ԃҽ Vҽҽɾ                                             
+Processing 75/79: [QAD]MacPickle                                                
+Processing 76/79: [MVP]뿌뿌잉                                                      
+Processing 77/79: [PHX]portu                                                    
+Processing 78/79: [MVP]Shih 史嘟筆                                                 
+Processing 79/79: 1666 替身鱼                                                      
+成功兑换 / Successfully claimed: 0
+已兑换 / Already claimed: 79
+错误 / Errors: 0
+
+2025-01-22 22:51:52 - DEBUG - 脚本错误输出: 
+2025-01-22 22:51:52 - DEBUG - Starting new HTTPS connection (1): discord.com:443
+2025-01-22 22:51:53 - DEBUG - https://discord.com:443 "POST /api/webhooks/1324279316753678400/UE26VmbWp_aJkgYCtba_N43WsFsiqV7OQceg-oMByS4lTlk1qB20HB4i9jw2tRgkKhBs HTTP/11" 204 0
+2025-01-22 22:51:53 - INFO - 127.0.0.1 - - [22/Jan/2025 22:51:53] "POST /redeem_giftcode HTTP/1.1" 200 -
+2025-01-22 22:54:57 - INFO - 127.0.0.1 - - [22/Jan/2025 22:54:57] "GET / HTTP/1.1" 200 -
+2025-01-22 22:55:11 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.228.37.59:5000
+2025-01-22 22:55:11 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-22 22:55:14 - INFO - 127.0.0.1 - - [22/Jan/2025 22:55:14] "GET / HTTP/1.1" 200 -
+2025-01-22 22:56:02 - DEBUG - 脚本标准输出: Processing 79 players for code: 2025TPGSWC
+Processing 1/79: 實沙緒                                                            
+Processing 2/79: 小沙緒                                                            
+Processing 3/79: 魚小 2                                                           
+Processing 4/79: 咳咳                                                             
+Processing 5/79: 咳咳2                                                            
+Processing 6/79: 咳咳3                                                            
+Processing 7/79: 小小魚                                                            
+Processing 8/79: [NEW]小小小魚                                                      
+Processing 9/79: 魚魚                                                             
+Processing 10/79: 小淘氣                                                           
+Processing 11/79: [CKK]ʚ繁星點點_CTK_HoShiɞ                                         
+Processing 12/79: Nino                                                          
+Processing 13/79: 貓貓Tap                                                         
+Processing 14/79: [MVP]FoamCat                                                  
+Processing 15/79: 時空貓                                                           
+Processing 16/79: [mvp]時空喵                                                      
+Processing 17/79: [No1]Cherish                                                  
+Processing 18/79: [No1]Alicey                                                   
+Processing 19/79: [DOG]Gotenks                                                  
+Processing 20/79: [NIX]ᗩᗰᗷᘔOᑎE                                                  
+Processing 21/79: [No1]PSY                                                      
+Processing 22/79: [No1]想入菲菲                                                     
+Processing 23/79: [No1]RURU                                                     
+Processing 24/79: [DOG]Jax                                                      
+Processing 25/79: [No1]Yuyu                                                     
+Processing 26/79: [No1] nino                                                    
+Processing 27/79: 9m88                                                          
+Processing 28/79: [MVP]鱼 yuyu                                                   
+Processing 29/79: xiaoyu1666                                                    
+Processing 30/79: 朗囝ʕ·͡ᴥ፝֟·ʔ                                                    
+Processing 31/79: Mochi 모찌 아이스크림                                                
+Processing 32/79: Freedom                                                       
+Processing 33/79: Guel                                                          
+Processing 34/79: Fury of July                                                  
+Processing 35/79: Winderen                                                      
+Processing 36/79: Luke2015                                                      
+Processing 37/79: 秋天一枝草                                                         
+Processing 38/79: 最有性价比                                                         
+Processing 39/79: Naikaa                                                        
+Processing 40/79: FallenAngel                                                   
+Processing 41/79: Benji                                                         
+Processing 42/79: iamnotokay                                                    
+Processing 43/79: Koala                                                         
+Processing 44/79: Jewels                                                        
+Processing 45/79: Slack                                                         
+Processing 46/79: Little_Yu                                                     
+Processing 47/79: Lord Patato                                                   
+Processing 48/79: Dmytro                                                        
+Processing 49/79: Redbulldozer                                                  
+Processing 50/79: CTL༒                                                          
+Processing 51/79: KumaKuma                                                      
+Processing 52/79: zotch                                                         
+Processing 53/79: Six                                                           
+Processing 54/79: CheapH0                                                       
+Processing 55/79: Commander Cassc                                               
+Processing 56/79: Maximus                                                       
+Processing 57/79: [No1]熊熊霸王熊_Bear Rex                                           
+Processing 58/79: [No1]BA҉D҉BU҉N҉N҉Y×͜×                                         
+Processing 59/79: [No1]熊熊小點心                                                    
+Processing 60/79: [CKK]ʚ香奈兒_CTK_Chanelɞ                                         
+Processing 61/79: [CKK]ʚ小惡魔_CTK_ɞ                                               
+Processing 62/79: [PNG]꧁ᴹᴿ᭄༒SHADOW༒꧂                                            
+Processing 63/79: alpk                                                          
+Processing 64/79: [AgE]代理鱼                                                      
+Processing 65/79: 小天使鱼                                                          
+Processing 66/79: [PNG]鱼鱼鱼                                                      
+Processing 67/79: 沙鱼壳                                                           
+Processing 68/79: [PHX]Frigo                                                    
+Processing 69/79: [EOS]RΛMXIΦN                                                  
+Processing 70/79: [QAD]Athena                                                   
+Processing 71/79: [EOS]BigusDickus                                              
+Processing 72/79: [MVP]schdoel                                                  
+Processing 73/79: [EOS]HelenaGK                                                 
+Processing 74/79: [QAD]Lαԃყ ԃҽ Vҽҽɾ                                             
+Processing 75/79: [QAD]MacPickle                                                
+Processing 76/79: [MVP]뿌뿌잉                                                      
+Processing 77/79: [PHX]portu                                                    
+Processing 78/79: [MVP]Shih 史嘟筆                                                 
+Processing 79/79: 1666 替身鱼                                                      
+成功兑换 / Successfully claimed: 0
+已兑换 / Already claimed: 79
+错误 / Errors: 0
+
+2025-01-22 22:56:02 - DEBUG - 脚本错误输出: 
+2025-01-22 22:56:02 - DEBUG - Starting new HTTPS connection (1): discord.com:443
+2025-01-22 22:56:04 - DEBUG - https://discord.com:443 "POST /api/webhooks/1324279316753678400/UE26VmbWp_aJkgYCtba_N43WsFsiqV7OQceg-oMByS4lTlk1qB20HB4i9jw2tRgkKhBs HTTP/11" 204 0
+2025-01-22 22:56:04 - INFO - 127.0.0.1 - - [22/Jan/2025 22:56:04] "POST /redeem_giftcode HTTP/1.1" 200 -
+2025-01-22 23:08:00 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.228.37.59:5000
+2025-01-22 23:08:00 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-22 23:08:03 - INFO - 127.0.0.1 - - [22/Jan/2025 23:08:03] "GET / HTTP/1.1" 200 -
+2025-01-22 23:08:03 - INFO - 127.0.0.1 - - [22/Jan/2025 23:08:03] "GET /get_languages HTTP/1.1" 200 -
+2025-01-22 23:08:03 - ERROR - 处理失败: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 95, in redeem_giftcode
+    data = request.get_json()
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-01-22 23:08:03 - ERROR - Exception on /redeem_giftcode [POST]
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 95, in redeem_giftcode
+    data = request.get_json()
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 51, in decorated
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 128, in redeem_giftcode
+    'error': lang_data['error_messages']['server_error'],
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'server_error'
+2025-01-22 23:08:03 - INFO - 127.0.0.1 - - [22/Jan/2025 23:08:03] "[35m[1mPOST /redeem_giftcode HTTP/1.1[0m" 500 -
+2025-01-22 23:08:07 - INFO - 127.0.0.1 - - [22/Jan/2025 23:08:07] "GET / HTTP/1.1" 200 -
+2025-01-22 23:08:07 - INFO - 127.0.0.1 - - [22/Jan/2025 23:08:07] "GET /get_languages HTTP/1.1" 200 -
+2025-01-22 23:08:07 - ERROR - 处理失败: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 95, in redeem_giftcode
+    data = request.get_json()
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-01-22 23:08:07 - ERROR - Exception on /redeem_giftcode [POST]
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 95, in redeem_giftcode
+    data = request.get_json()
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 51, in decorated
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 128, in redeem_giftcode
+    'error': lang_data['error_messages']['server_error'],
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'server_error'
+2025-01-22 23:08:07 - INFO - 127.0.0.1 - - [22/Jan/2025 23:08:07] "[35m[1mPOST /redeem_giftcode HTTP/1.1[0m" 500 -
+2025-01-22 23:08:08 - ERROR - 处理失败: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 95, in redeem_giftcode
+    data = request.get_json()
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-01-22 23:08:08 - ERROR - Exception on /redeem_giftcode [POST]
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 95, in redeem_giftcode
+    data = request.get_json()
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 51, in decorated
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 128, in redeem_giftcode
+    'error': lang_data['error_messages']['server_error'],
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'server_error'
+2025-01-22 23:08:08 - INFO - 127.0.0.1 - - [22/Jan/2025 23:08:08] "[35m[1mPOST /redeem_giftcode HTTP/1.1[0m" 500 -
+2025-01-22 23:08:23 - INFO - 127.0.0.1 - - [22/Jan/2025 23:08:23] "GET /get_languages HTTP/1.1" 200 -
+2025-01-22 23:08:23 - INFO - 127.0.0.1 - - [22/Jan/2025 23:08:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-22 23:08:49 - INFO - 127.0.0.1 - - [22/Jan/2025 23:08:49] "GET / HTTP/1.1" 200 -
+2025-01-22 23:08:49 - INFO - 127.0.0.1 - - [22/Jan/2025 23:08:49] "GET /get_languages HTTP/1.1" 200 -
+2025-01-22 23:08:49 - ERROR - 处理失败: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 95, in redeem_giftcode
+    data = request.get_json()
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-01-22 23:08:49 - ERROR - Exception on /redeem_giftcode [POST]
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 95, in redeem_giftcode
+    data = request.get_json()
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 51, in decorated
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 128, in redeem_giftcode
+    'error': lang_data['error_messages']['server_error'],
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'server_error'
+2025-01-22 23:08:49 - INFO - 127.0.0.1 - - [22/Jan/2025 23:08:49] "[35m[1mPOST /redeem_giftcode HTTP/1.1[0m" 500 -
+2025-01-22 23:08:50 - INFO - 127.0.0.1 - - [22/Jan/2025 23:08:50] "GET / HTTP/1.1" 200 -
+2025-01-22 23:08:50 - INFO - 127.0.0.1 - - [22/Jan/2025 23:08:50] "GET /get_languages HTTP/1.1" 200 -
+2025-01-22 23:08:50 - ERROR - 处理失败: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 95, in redeem_giftcode
+    data = request.get_json()
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-01-22 23:08:50 - ERROR - Exception on /redeem_giftcode [POST]
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 95, in redeem_giftcode
+    data = request.get_json()
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 51, in decorated
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 128, in redeem_giftcode
+    'error': lang_data['error_messages']['server_error'],
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'server_error'
+2025-01-22 23:08:50 - INFO - 127.0.0.1 - - [22/Jan/2025 23:08:50] "[35m[1mPOST /redeem_giftcode HTTP/1.1[0m" 500 -
+2025-01-22 23:08:52 - ERROR - 处理失败: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 95, in redeem_giftcode
+    data = request.get_json()
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-01-22 23:08:52 - ERROR - Exception on /redeem_giftcode [POST]
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 95, in redeem_giftcode
+    data = request.get_json()
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 51, in decorated
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 128, in redeem_giftcode
+    'error': lang_data['error_messages']['server_error'],
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'server_error'
+2025-01-22 23:08:52 - INFO - 127.0.0.1 - - [22/Jan/2025 23:08:52] "[35m[1mPOST /redeem_giftcode HTTP/1.1[0m" 500 -
+2025-01-22 23:08:53 - INFO - 127.0.0.1 - - [22/Jan/2025 23:08:53] "GET / HTTP/1.1" 200 -
+2025-01-22 23:08:53 - INFO - 127.0.0.1 - - [22/Jan/2025 23:08:53] "GET /get_languages HTTP/1.1" 200 -
+2025-01-22 23:08:53 - ERROR - 处理失败: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 95, in redeem_giftcode
+    data = request.get_json()
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-01-22 23:08:53 - ERROR - Exception on /redeem_giftcode [POST]
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 95, in redeem_giftcode
+    data = request.get_json()
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 51, in decorated
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 128, in redeem_giftcode
+    'error': lang_data['error_messages']['server_error'],
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'server_error'
+2025-01-22 23:08:53 - INFO - 127.0.0.1 - - [22/Jan/2025 23:08:53] "[35m[1mPOST /redeem_giftcode HTTP/1.1[0m" 500 -
+2025-01-22 23:08:55 - ERROR - 处理失败: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 95, in redeem_giftcode
+    data = request.get_json()
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-01-22 23:08:55 - ERROR - Exception on /redeem_giftcode [POST]
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 95, in redeem_giftcode
+    data = request.get_json()
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 51, in decorated
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 128, in redeem_giftcode
+    'error': lang_data['error_messages']['server_error'],
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'server_error'
+2025-01-22 23:08:55 - INFO - 127.0.0.1 - - [22/Jan/2025 23:08:55] "[35m[1mPOST /redeem_giftcode HTTP/1.1[0m" 500 -
+2025-01-22 23:08:55 - INFO - 127.0.0.1 - - [22/Jan/2025 23:08:55] "GET / HTTP/1.1" 200 -
+2025-01-22 23:08:55 - INFO - 127.0.0.1 - - [22/Jan/2025 23:08:55] "GET /get_languages HTTP/1.1" 200 -
+2025-01-22 23:08:56 - ERROR - 处理失败: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 95, in redeem_giftcode
+    data = request.get_json()
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-01-22 23:08:56 - ERROR - Exception on /redeem_giftcode [POST]
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 95, in redeem_giftcode
+    data = request.get_json()
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 51, in decorated
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 128, in redeem_giftcode
+    'error': lang_data['error_messages']['server_error'],
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'server_error'
+2025-01-22 23:08:56 - INFO - 127.0.0.1 - - [22/Jan/2025 23:08:56] "[35m[1mPOST /redeem_giftcode HTTP/1.1[0m" 500 -
+2025-01-22 23:09:43 - INFO - 127.0.0.1 - - [22/Jan/2025 23:09:43] "GET / HTTP/1.1" 200 -
+2025-01-22 23:09:43 - INFO - 127.0.0.1 - - [22/Jan/2025 23:09:43] "GET /get_languages HTTP/1.1" 200 -
+2025-01-22 23:09:43 - ERROR - 处理失败: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 95, in redeem_giftcode
+    data = request.get_json()
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-01-22 23:09:43 - ERROR - Exception on /redeem_giftcode [POST]
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 95, in redeem_giftcode
+    data = request.get_json()
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 51, in decorated
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 128, in redeem_giftcode
+    'error': lang_data['error_messages']['server_error'],
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'server_error'
+2025-01-22 23:09:43 - INFO - 127.0.0.1 - - [22/Jan/2025 23:09:43] "[35m[1mPOST /redeem_giftcode HTTP/1.1[0m" 500 -
+2025-01-22 23:09:46 - INFO - 127.0.0.1 - - [22/Jan/2025 23:09:46] "GET / HTTP/1.1" 200 -
+2025-01-22 23:09:46 - INFO - 127.0.0.1 - - [22/Jan/2025 23:09:46] "GET /get_languages HTTP/1.1" 200 -
+2025-01-22 23:09:46 - ERROR - 处理失败: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 95, in redeem_giftcode
+    data = request.get_json()
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-01-22 23:09:46 - ERROR - Exception on /redeem_giftcode [POST]
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 95, in redeem_giftcode
+    data = request.get_json()
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 51, in decorated
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 128, in redeem_giftcode
+    'error': lang_data['error_messages']['server_error'],
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'server_error'
+2025-01-22 23:09:46 - INFO - 127.0.0.1 - - [22/Jan/2025 23:09:46] "[35m[1mPOST /redeem_giftcode HTTP/1.1[0m" 500 -
+2025-01-22 23:16:53 - INFO - 127.0.0.1 - - [22/Jan/2025 23:16:53] "GET / HTTP/1.1" 200 -
+2025-01-22 23:16:53 - INFO - 127.0.0.1 - - [22/Jan/2025 23:16:53] "GET /get_languages HTTP/1.1" 200 -
+2025-01-22 23:16:53 - ERROR - 处理失败: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 95, in redeem_giftcode
+    try:
+         
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-01-22 23:16:53 - ERROR - Exception on /redeem_giftcode [POST]
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 95, in redeem_giftcode
+    try:
+         
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 51, in decorated
+    return authenticate()
+       ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 128, in redeem_giftcode
+    return jsonify({
+                 ^^^^
+KeyError: 'server_error'
+2025-01-22 23:16:53 - INFO - 127.0.0.1 - - [22/Jan/2025 23:16:53] "[35m[1mPOST /redeem_giftcode HTTP/1.1[0m" 500 -
+2025-01-22 23:17:02 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.228.37.59:5000
+2025-01-22 23:17:02 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-22 23:17:05 - INFO - 127.0.0.1 - - [22/Jan/2025 23:17:05] "GET / HTTP/1.1" 200 -
+2025-01-22 23:17:05 - INFO - 127.0.0.1 - - [22/Jan/2025 23:17:05] "GET /get_languages HTTP/1.1" 200 -
+2025-01-22 23:17:05 - INFO - 127.0.0.1 - - [22/Jan/2025 23:17:05] "GET /get_language?lang=zh HTTP/1.1" 200 -
+2025-01-22 23:18:12 - INFO - 127.0.0.1 - - [22/Jan/2025 23:18:12] "GET / HTTP/1.1" 200 -
+2025-01-22 23:18:13 - INFO - 127.0.0.1 - - [22/Jan/2025 23:18:13] "GET /get_languages HTTP/1.1" 200 -
+2025-01-22 23:18:13 - INFO - 127.0.0.1 - - [22/Jan/2025 23:18:13] "GET /get_language?lang=zh HTTP/1.1" 200 -
+2025-01-22 23:18:16 - INFO - 127.0.0.1 - - [22/Jan/2025 23:18:16] "GET /get_language?lang=en HTTP/1.1" 200 -
+2025-01-22 23:18:33 - INFO - 127.0.0.1 - - [22/Jan/2025 23:18:33] "GET /get_languages HTTP/1.1" 200 -
+2025-01-22 23:18:33 - INFO - 127.0.0.1 - - [22/Jan/2025 23:18:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-22 23:18:35 - INFO - 127.0.0.1 - - [22/Jan/2025 23:18:35] "GET /get_language?lang=zh HTTP/1.1" 200 -
+2025-01-22 23:18:35 - INFO - 127.0.0.1 - - [22/Jan/2025 23:18:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-22 23:18:37 - INFO - 127.0.0.1 - - [22/Jan/2025 23:18:37] "GET /get_language?lang=en HTTP/1.1" 200 -
+2025-01-22 23:18:37 - INFO - 127.0.0.1 - - [22/Jan/2025 23:18:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-22 23:19:28 - INFO - 127.0.0.1 - - [22/Jan/2025 23:19:28] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-01-22 23:19:29 - INFO - 127.0.0.1 - - [22/Jan/2025 23:19:29] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-01-22 23:19:33 - INFO - 127.0.0.1 - - [22/Jan/2025 23:19:33] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-01-22 23:19:34 - INFO - 127.0.0.1 - - [22/Jan/2025 23:19:34] "GET / HTTP/1.1" 200 -
+2025-01-22 23:19:36 - INFO - 127.0.0.1 - - [22/Jan/2025 23:19:36] "GET /get_languages HTTP/1.1" 200 -
+2025-01-22 23:19:38 - INFO - 127.0.0.1 - - [22/Jan/2025 23:19:38] "GET /get_language?lang=en HTTP/1.1" 200 -
+2025-01-22 23:19:38 - INFO - 127.0.0.1 - - [22/Jan/2025 23:19:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-22 23:20:00 - INFO - 127.0.0.1 - - [22/Jan/2025 23:20:00] "GET / HTTP/1.1" 200 -
+2025-01-22 23:20:01 - INFO - 127.0.0.1 - - [22/Jan/2025 23:20:01] "GET /get_languages HTTP/1.1" 200 -
+2025-01-22 23:20:03 - INFO - 127.0.0.1 - - [22/Jan/2025 23:20:03] "GET /get_language?lang=en HTTP/1.1" 200 -
+2025-01-22 23:24:00 - INFO - 127.0.0.1 - - [22/Jan/2025 23:24:00] "GET / HTTP/1.1" 200 -
+2025-01-22 23:24:01 - INFO - 127.0.0.1 - - [22/Jan/2025 23:24:01] "GET /get_languages HTTP/1.1" 200 -
+2025-01-22 23:24:01 - INFO - 127.0.0.1 - - [22/Jan/2025 23:24:01] "GET /get_language?lang=en HTTP/1.1" 200 -
+2025-01-22 23:24:12 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.228.37.59:5000
+2025-01-22 23:24:12 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-22 23:24:15 - INFO - 127.0.0.1 - - [22/Jan/2025 23:24:15] "GET / HTTP/1.1" 200 -
+2025-01-22 23:24:15 - INFO - 127.0.0.1 - - [22/Jan/2025 23:24:15] "GET /get_languages HTTP/1.1" 200 -
+2025-01-22 23:24:15 - INFO - 127.0.0.1 - - [22/Jan/2025 23:24:15] "GET /get_language?lang=en HTTP/1.1" 200 -
+2025-01-22 23:25:28 - INFO - 127.0.0.1 - - [22/Jan/2025 23:25:28] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-01-22 23:25:29 - INFO - 127.0.0.1 - - [22/Jan/2025 23:25:29] "GET / HTTP/1.1" 200 -
+2025-01-22 23:25:30 - INFO - 127.0.0.1 - - [22/Jan/2025 23:25:30] "GET /get_languages HTTP/1.1" 200 -
+2025-01-22 23:25:32 - INFO - 127.0.0.1 - - [22/Jan/2025 23:25:32] "GET /get_language?lang=en HTTP/1.1" 200 -
+2025-01-22 23:30:09 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.228.37.59:5000
+2025-01-22 23:30:09 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-22 23:30:13 - INFO - 127.0.0.1 - - [22/Jan/2025 23:30:13] "GET / HTTP/1.1" 200 -
+2025-01-22 23:30:13 - INFO - 127.0.0.1 - - [22/Jan/2025 23:30:13] "GET /get_languages HTTP/1.1" 200 -
+2025-01-22 23:30:13 - INFO - 127.0.0.1 - - [22/Jan/2025 23:30:13] "GET /get_language?lang=en HTTP/1.1" 200 -
+2025-01-22 23:30:43 - INFO - 127.0.0.1 - - [22/Jan/2025 23:30:43] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-01-22 23:30:44 - INFO - 127.0.0.1 - - [22/Jan/2025 23:30:44] "GET / HTTP/1.1" 200 -
+2025-01-22 23:30:45 - INFO - 127.0.0.1 - - [22/Jan/2025 23:30:45] "GET /get_languages HTTP/1.1" 200 -
+2025-01-22 23:30:48 - INFO - 127.0.0.1 - - [22/Jan/2025 23:30:48] "GET /get_language?lang=en HTTP/1.1" 200 -
+2025-01-22 23:36:24 - INFO - 127.0.0.1 - - [22/Jan/2025 23:36:24] "GET / HTTP/1.1" 200 -
+2025-01-22 23:36:24 - INFO - 127.0.0.1 - - [22/Jan/2025 23:36:24] "GET /get_languages HTTP/1.1" 200 -
+2025-01-22 23:36:24 - INFO - 127.0.0.1 - - [22/Jan/2025 23:36:24] "GET /get_language?lang=en HTTP/1.1" 200 -
+2025-01-22 23:36:35 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.228.37.59:5000
+2025-01-22 23:36:35 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-22 23:36:44 - INFO - 127.0.0.1 - - [22/Jan/2025 23:36:44] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-01-22 23:36:46 - INFO - 127.0.0.1 - - [22/Jan/2025 23:36:46] "GET / HTTP/1.1" 200 -
+2025-01-22 23:36:53 - ERROR - 处理失败: invalid literal for int() with base 10: 'claimed:'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 82, in redeem_giftcode
+    stats = parse_script_output(result.stdout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 127, in parse_script_output
+    stats['success'] = int(line.split(' ')[3])
+                       ^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'claimed:'
+2025-01-22 23:36:53 - INFO - 127.0.0.1 - - [22/Jan/2025 23:36:53] "[35m[1mPOST /redeem_giftcode HTTP/1.1[0m" 500 -
+2025-01-22 23:37:00 - ERROR - 处理失败: invalid literal for int() with base 10: 'claimed:'
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 82, in redeem_giftcode
+    stats = parse_script_output(result.stdout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/wos-gift-code/flask_app.py", line 127, in parse_script_output
+    stats['success'] = int(line.split(' ')[3])
+                       ^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'claimed:'
+2025-01-22 23:37:00 - INFO - 127.0.0.1 - - [22/Jan/2025 23:37:00] "[35m[1mPOST /redeem_giftcode HTTP/1.1[0m" 500 -
+2025-01-22 23:40:16 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.228.37.59:5000
+2025-01-22 23:40:16 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-22 23:40:22 - INFO - 127.0.0.1 - - [22/Jan/2025 23:40:22] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-01-22 23:40:23 - INFO - 127.0.0.1 - - [22/Jan/2025 23:40:23] "GET / HTTP/1.1" 200 -
+2025-01-22 23:40:33 - DEBUG - 脚本输出: Processing 79 players for code: 2025TPGSWC
+Processing 1/79: 實沙緒                                                            
+Processing 2/79: 小沙緒                                                            
+Processing 3/79: 魚小 2                                                           
+Processing 4/79: 咳咳                                                             
+Processing 5/79: 咳咳2                                                            
+Processing 6/79: 咳咳3                                                            
+Processing 7/79: 小小魚                                                            
+Processing 8/79: [NEW]小小小魚                                                      
+Processing 9/79: 魚魚                                                             
+Processing 10/79: 小淘氣                                                           
+Processing 11/79: [CKK]ʚ繁星點點_CTK_HoShiɞ                                         
+Processing 12/79: Nino                                                          
+Processing 13/79: 貓貓Tap                                                         
+Processing 14/79: [MVP]FoamCat                                                  
+Processing 15/79: 時空貓                                                           
+Processing 16/79: [mvp]時空喵                                                      
+Processing 17/79: [No1]Cherish                                                  
+Processing 18/79: [No1]Alicey                                                   
+Processing 19/79: [DOG]Gotenks                                                  
+Processing 20/79: [NIX]ᗩᗰᗷᘔOᑎE                                                  
+Processing 21/79: [No1]PSY                                                      
+Processing 22/79: [No1]想入菲菲                                                     
+Processing 23/79: [No1]RURU                                                     
+Processing 24/79: [DOG]Jax                                                      
+Processing 25/79: [No1]Yuyu                                                     
+Processing 26/79: [No1] nino                                                    
+Processing 27/79: 9m88                                                          
+Processing 28/79: [MVP]鱼 yuyu                                                   
+Processing 29/79: xiaoyu1666                                                    
+Processing 30/79: 朗囝ʕ·͡ᴥ፝֟·ʔ                                                    
+Processing 31/79: Mochi 모찌 아이스크림                                                
+Processing 32/79: Freedom                                                       
+Processing 33/79: Guel                                                          
+Processing 34/79: Fury of July                                                  
+Processing 35/79: Winderen                                                      
+Processing 36/79: Luke2015                                                      
+Processing 37/79: 秋天一枝草                                                         
+Processing 38/79: 最有性价比                                                         
+Processing 39/79: Naikaa                                                        
+Processing 40/79: FallenAngel                                                   
+Processing 41/79: Benji                                                         
+Processing 42/79: iamnotokay                                                    
+Processing 43/79: Koala                                                         
+Processing 44/79: Jewels                                                        
+Processing 45/79: Slack                                                         
+Processing 46/79: Little_Yu                                                     
+Processing 47/79: Lord Patato                                                   
+Processing 48/79: Dmytro                                                        
+Processing 49/79: Redbulldozer                                                  
+Processing 50/79: CTL༒                                                          
+Processing 51/79: KumaKuma                                                      
+Processing 52/79: zotch                                                         
+Processing 53/79: Six                                                           
+Processing 54/79: CheapH0                                                       
+Processing 55/79: Commander Cassc                                               
+Processing 56/79: Maximus                                                       
+Processing 57/79: [No1]熊熊霸王熊_Bear Rex                                           
+Processing 58/79: [No1]BA҉D҉BU҉N҉N҉Y×͜×                                         
+Processing 59/79: [No1]熊熊小點心                                                    
+Processing 60/79: [CKK]ʚ香奈兒_CTK_Chanelɞ                                         
+Processing 61/79: [CKK]ʚ小惡魔_CTK_ɞ                                               
+Processing 62/79: [PNG]꧁ᴹᴿ᭄༒SHADOW༒꧂                                            
+Processing 63/79: alpk                                                          
+Processing 64/79: [AgE]代理鱼                                                      
+Processing 65/79: 小天使鱼                                                          
+Processing 66/79: [PNG]鱼鱼鱼                                                      
+Processing 67/79: 沙鱼壳                                                           
+Processing 68/79: [PHX]Frigo                                                    
+Processing 69/79: [EOS]RΛMXIΦN                                                  
+Processing 70/79: [QAD]Athena                                                   
+Processing 71/79: [EOS]BigusDickus                                              
+Processing 72/79: [MVP]schdoel                                                  
+Processing 73/79: [EOS]HelenaGK                                                 
+Processing 74/79: [QAD]Lαԃყ ԃҽ Vҽҽɾ                                             
+Processing 75/79: [QAD]MacPickle                                                
+Processing 76/79: [MVP]뿌뿌잉                                                      
+Processing 77/79: [PHX]portu                                                    
+Processing 78/79: [MVP]Shih 史嘟筆                                                 
+Processing 79/79: 1666 替身鱼                                                      
+成功兑换 / Successfully claimed: 0
+已兑换 / Already claimed: 79
+错误 / Errors: 0
+
+2025-01-22 23:40:33 - DEBUG - 脚本错误: 
+2025-01-22 23:40:33 - DEBUG - Starting new HTTPS connection (1): discord.com:443
+2025-01-22 23:40:34 - DEBUG - https://discord.com:443 "POST /api/webhooks/1324279316753678400/UE26VmbWp_aJkgYCtba_N43WsFsiqV7OQceg-oMByS4lTlk1qB20HB4i9jw2tRgkKhBs HTTP/11" 204 0
+2025-01-22 23:40:34 - INFO - 127.0.0.1 - - [22/Jan/2025 23:40:34] "POST /redeem_giftcode HTTP/1.1" 200 -
+2025-01-23 00:02:20 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.228.37.59:5000
+2025-01-23 00:02:20 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-23 00:02:32 - INFO - 127.0.0.1 - - [23/Jan/2025 00:02:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-23 00:02:35 - INFO - 127.0.0.1 - - [23/Jan/2025 00:02:35] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-01-23 00:02:36 - INFO - 127.0.0.1 - - [23/Jan/2025 00:02:36] "GET / HTTP/1.1" 200 -
+2025-01-23 00:02:56 - DEBUG - 脚本输出: Processing 79 players for code: 2025TPGSWC
+Processing 1/79: 實沙緒                                                            
+Processing 2/79: 小沙緒                                                            
+Processing 3/79: 魚小 2                                                           
+Processing 4/79: 咳咳                                                             
+Processing 5/79: 咳咳2                                                            
+Processing 6/79: 咳咳3                                                            
+Processing 7/79: 小小魚                                                            
+Processing 8/79: [NEW]小小小魚                                                      
+Processing 9/79: 魚魚                                                             
+Processing 10/79: 小淘氣                                                           
+Processing 11/79: [CKK]ʚ繁星點點_CTK_HoShiɞ                                         
+Processing 12/79: Nino                                                          
+Processing 13/79: 貓貓Tap                                                         
+Processing 14/79: [MVP]FoamCat                                                  
+Processing 15/79: 時空貓                                                           
+Processing 16/79: [mvp]時空喵                                                      
+Processing 17/79: [No1]Cherish                                                  
+Processing 18/79: [No1]Alicey                                                   
+Processing 19/79: [DOG]Gotenks                                                  
+Processing 20/79: [NIX]ᗩᗰᗷᘔOᑎE                                                  
+Processing 21/79: [No1]PSY                                                      
+Processing 22/79: [No1]想入菲菲                                                     
+Processing 23/79: [No1]RURU                                                     
+Processing 24/79: [DOG]Jax                                                      
+Processing 25/79: [No1]Yuyu                                                     
+Processing 26/79: [No1] nino                                                    
+Processing 27/79: 9m88                                                          
+Processing 28/79: [MVP]鱼 yuyu                                                   
+Processing 29/79: xiaoyu1666                                                    
+Processing 30/79: 朗囝ʕ·͡ᴥ፝֟·ʔ                                                    
+Processing 31/79: Mochi 모찌 아이스크림                                                
+Processing 32/79: Freedom                                                       
+Processing 33/79: Guel                                                          
+Processing 34/79: Fury of July                                                  
+Processing 35/79: Winderen                                                      
+Processing 36/79: Luke2015                                                      
+Processing 37/79: 秋天一枝草                                                         
+Processing 38/79: 最有性价比                                                         
+Processing 39/79: Naikaa                                                        
+Processing 40/79: FallenAngel                                                   
+Processing 41/79: Benji                                                         
+Processing 42/79: iamnotokay                                                    
+Processing 43/79: Koala                                                         
+Processing 44/79: Jewels                                                        
+Processing 45/79: Slack                                                         
+Processing 46/79: Little_Yu                                                     
+Processing 47/79: Lord Patato                                                   
+Processing 48/79: Dmytro                                                        
+Processing 49/79: Redbulldozer                                                  
+Processing 50/79: CTL༒                                                          
+Processing 51/79: KumaKuma                                                      
+Processing 52/79: zotch                                                         
+Processing 53/79: Six                                                           
+Processing 54/79: CheapH0                                                       
+Processing 55/79: Commander Cassc                                               
+Processing 56/79: Maximus                                                       
+Processing 57/79: [No1]熊熊霸王熊_Bear Rex                                           
+Processing 58/79: [No1]BA҉D҉BU҉N҉N҉Y×͜×                                         
+Processing 59/79: [No1]熊熊小點心                                                    
+Processing 60/79: [CKK]ʚ香奈兒_CTK_Chanelɞ                                         
+Processing 61/79: [CKK]ʚ小惡魔_CTK_ɞ                                               
+Processing 62/79: [PNG]꧁ᴹᴿ᭄༒SHADOW༒꧂                                            
+Processing 63/79: alpk                                                          
+Processing 64/79: [AgE]代理鱼                                                      
+Processing 65/79: 小天使鱼                                                          
+Processing 66/79: [PNG]鱼鱼鱼                                                      
+Processing 67/79: 沙鱼壳                                                           
+Processing 68/79: [PHX]Frigo                                                    
+Processing 69/79: [EOS]RΛMXIΦN                                                  
+Processing 70/79: [QAD]Athena                                                   
+Processing 71/79: [EOS]BigusDickus                                              
+Processing 72/79: [MVP]schdoel                                                  
+Processing 73/79: [EOS]HelenaGK                                                 
+Processing 74/79: [QAD]Lαԃყ ԃҽ Vҽҽɾ                                             
+Processing 75/79: [QAD]MacPickle                                                
+Processing 76/79: [MVP]뿌뿌잉                                                      
+Processing 77/79: [PHX]portu                                                    
+Processing 78/79: [MVP]Shih 史嘟筆                                                 
+Processing 79/79: 1666 替身鱼                                                      
+成功兑换 / Successfully claimed: 0
+已兑换 / Already claimed: 79
+错误 / Errors: 0
+
+2025-01-23 00:02:56 - DEBUG - 脚本错误: 
+2025-01-23 00:02:56 - DEBUG - Starting new HTTPS connection (1): discord.com:443
+2025-01-23 00:02:57 - DEBUG - https://discord.com:443 "POST /api/webhooks/1324279316753678400/UE26VmbWp_aJkgYCtba_N43WsFsiqV7OQceg-oMByS4lTlk1qB20HB4i9jw2tRgkKhBs HTTP/11" 204 0
+2025-01-23 00:02:57 - INFO - 127.0.0.1 - - [23/Jan/2025 00:02:57] "POST /redeem_giftcode HTTP/1.1" 200 -
+2025-01-23 00:03:02 - INFO - 127.0.0.1 - - [23/Jan/2025 00:03:02] "GET / HTTP/1.1" 200 -
+2025-01-23 00:06:55 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.228.37.59:5000
+2025-01-23 00:06:55 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-23 00:07:03 - INFO - 127.0.0.1 - - [23/Jan/2025 00:07:03] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-01-23 00:07:05 - INFO - 127.0.0.1 - - [23/Jan/2025 00:07:05] "GET / HTTP/1.1" 200 -
+2025-01-23 00:07:09 - INFO - 127.0.0.1 - - [23/Jan/2025 00:07:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-23 00:07:32 - DEBUG - 脚本输出: Processing 79 players for code: 2025TPGSWC
+Processing 1/79: 實沙緒                                                            
+Processing 2/79: 小沙緒                                                            
+Processing 3/79: 魚小 2                                                           
+Processing 4/79: 咳咳                                                             
+Processing 5/79: 咳咳2                                                            
+Processing 6/79: 咳咳3                                                            
+Processing 7/79: 小小魚                                                            
+Processing 8/79: [NEW]小小小魚                                                      
+Processing 9/79: 魚魚                                                             
+Processing 10/79: 小淘氣                                                           
+Processing 11/79: [CKK]ʚ繁星點點_CTK_HoShiɞ                                         
+Processing 12/79: Nino                                                          
+Processing 13/79: 貓貓Tap                                                         
+Processing 14/79: [MVP]FoamCat                                                  
+Processing 15/79: 時空貓                                                           
+Processing 16/79: [mvp]時空喵                                                      
+Processing 17/79: [No1]Cherish                                                  
+Processing 18/79: [No1]Alicey                                                   
+Processing 19/79: [DOG]Gotenks                                                  
+Processing 20/79: [NIX]ᗩᗰᗷᘔOᑎE                                                  
+Processing 21/79: [No1]PSY                                                      
+Processing 22/79: [No1]想入菲菲                                                     
+Processing 23/79: [No1]RURU                                                     
+Processing 24/79: [DOG]Jax                                                      
+Processing 25/79: [No1]Yuyu                                                     
+Processing 26/79: [No1] nino                                                    
+Processing 27/79: 9m88                                                          
+Processing 28/79: [MVP]鱼 yuyu                                                   
+Processing 29/79: xiaoyu1666                                                    
+Processing 30/79: 朗囝ʕ·͡ᴥ፝֟·ʔ                                                    
+Processing 31/79: Mochi 모찌 아이스크림                                                
+Processing 32/79: Freedom                                                       
+Processing 33/79: Guel                                                          
+Processing 34/79: Fury of July                                                  
+Processing 35/79: Winderen                                                      
+Processing 36/79: Luke2015                                                      
+Processing 37/79: 秋天一枝草                                                         
+Processing 38/79: 最有性价比                                                         
+Processing 39/79: Naikaa                                                        
+Processing 40/79: FallenAngel                                                   
+Processing 41/79: Benji                                                         
+Processing 42/79: iamnotokay                                                    
+Processing 43/79: Koala                                                         
+Processing 44/79: Jewels                                                        
+Processing 45/79: Slack                                                         
+Processing 46/79: Little_Yu                                                     
+Processing 47/79: Lord Patato                                                   
+Processing 48/79: Dmytro                                                        
+Processing 49/79: Redbulldozer                                                  
+Processing 50/79: CTL༒                                                          
+Processing 51/79: KumaKuma                                                      
+Processing 52/79: zotch                                                         
+Processing 53/79: Six                                                           
+Processing 54/79: CheapH0                                                       
+Processing 55/79: Commander Cassc                                               
+Processing 56/79: Maximus                                                       
+Processing 57/79: [No1]熊熊霸王熊_Bear Rex                                           
+Processing 58/79: [No1]BA҉D҉BU҉N҉N҉Y×͜×                                         
+Processing 59/79: [No1]熊熊小點心                                                    
+Processing 60/79: [CKK]ʚ香奈兒_CTK_Chanelɞ                                         
+Processing 61/79: [CKK]ʚ小惡魔_CTK_ɞ                                               
+Processing 62/79: [PNG]꧁ᴹᴿ᭄༒SHADOW༒꧂                                            
+Processing 63/79: alpk                                                          
+Processing 64/79: [AgE]代理鱼                                                      
+Processing 65/79: 小天使鱼                                                          
+Processing 66/79: [PNG]鱼鱼鱼                                                      
+Processing 67/79: 沙鱼壳                                                           
+Processing 68/79: [PHX]Frigo                                                    
+Processing 69/79: [EOS]RΛMXIΦN                                                  
+Processing 70/79: [QAD]Athena                                                   
+Processing 71/79: [EOS]BigusDickus                                              
+Processing 72/79: [MVP]schdoel                                                  
+Processing 73/79: [EOS]HelenaGK                                                 
+Processing 74/79: [QAD]Lαԃყ ԃҽ Vҽҽɾ                                             
+Processing 75/79: [QAD]MacPickle                                                
+Processing 76/79: [MVP]뿌뿌잉                                                      
+Processing 77/79: [PHX]portu                                                    
+Processing 78/79: [MVP]Shih 史嘟筆                                                 
+Processing 79/79: 1666 替身鱼                                                      
+成功兑换 / Successfully claimed: 0
+已兑换 / Already claimed: 79
+错误 / Errors: 0
+
+2025-01-23 00:07:32 - DEBUG - 脚本错误: 
+2025-01-23 00:07:32 - DEBUG - Starting new HTTPS connection (1): discord.com:443
+2025-01-23 00:07:33 - DEBUG - https://discord.com:443 "POST /api/webhooks/1324279316753678400/UE26VmbWp_aJkgYCtba_N43WsFsiqV7OQceg-oMByS4lTlk1qB20HB4i9jw2tRgkKhBs HTTP/11" 204 0
+2025-01-23 00:07:33 - INFO - 127.0.0.1 - - [23/Jan/2025 00:07:33] "POST /redeem_giftcode HTTP/1.1" 200 -
+2025-01-23 00:23:26 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.228.37.59:5000
+2025-01-23 00:23:26 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-23 00:23:31 - INFO - 127.0.0.1 - - [23/Jan/2025 00:23:31] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-01-23 00:23:38 - INFO - 127.0.0.1 - - [23/Jan/2025 00:23:38] "GET / HTTP/1.1" 200 -
+2025-01-23 00:23:40 - INFO - 127.0.0.1 - - [23/Jan/2025 00:23:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-23 00:23:42 - INFO - 127.0.0.1 - - [23/Jan/2025 00:23:42] "[31m[1mPOST /redeem_giftcode HTTP/1.1[0m" 400 -
+2025-01-23 00:23:56 - DEBUG - 脚本输出: Processing 79 players for code: 2025TPGSWC
+Processing 1/79: 實沙緒                                                            
+Processing 2/79: 小沙緒                                                            
+Processing 3/79: 魚小 2                                                           
+Processing 4/79: 咳咳                                                             
+Processing 5/79: 咳咳2                                                            
+Processing 6/79: 咳咳3                                                            
+Processing 7/79: 小小魚                                                            
+Processing 8/79: [NEW]小小小魚                                                      
+Processing 9/79: 魚魚                                                             
+Processing 10/79: 小淘氣                                                           
+Processing 11/79: [CKK]ʚ繁星點點_CTK_HoShiɞ                                         
+Processing 12/79: Nino                                                          
+Processing 13/79: 貓貓Tap                                                         
+Processing 14/79: [MVP]FoamCat                                                  
+Processing 15/79: 時空貓                                                           
+Processing 16/79: [mvp]時空喵                                                      
+Processing 17/79: [No1]Cherish                                                  
+Processing 18/79: [No1]Alicey                                                   
+Processing 19/79: [DOG]Gotenks                                                  
+Processing 20/79: [NIX]ᗩᗰᗷᘔOᑎE                                                  
+Processing 21/79: [No1]PSY                                                      
+Processing 22/79: [No1]想入菲菲                                                     
+Processing 23/79: [No1]RURU                                                     
+Processing 24/79: [DOG]Jax                                                      
+Processing 25/79: [No1]Yuyu                                                     
+Processing 26/79: [No1] nino                                                    
+Processing 27/79: 9m88                                                          
+Processing 28/79: [MVP]鱼 yuyu                                                   
+Processing 29/79: xiaoyu1666                                                    
+Processing 30/79: 朗囝ʕ·͡ᴥ፝֟·ʔ                                                    
+Processing 31/79: Mochi 모찌 아이스크림                                                
+Processing 32/79: Freedom                                                       
+Processing 33/79: Guel                                                          
+Processing 34/79: Fury of July                                                  
+Processing 35/79: Winderen                                                      
+Processing 36/79: Luke2015                                                      
+Processing 37/79: 秋天一枝草                                                         
+Processing 38/79: 最有性价比                                                         
+Processing 39/79: Naikaa                                                        
+Processing 40/79: FallenAngel                                                   
+Processing 41/79: Benji                                                         
+Processing 42/79: iamnotokay                                                    
+Processing 43/79: Koala                                                         
+Processing 44/79: Jewels                                                        
+Processing 45/79: Slack                                                         
+Processing 46/79: Little_Yu                                                     
+Processing 47/79: Lord Patato                                                   
+Processing 48/79: Dmytro                                                        
+Processing 49/79: Redbulldozer                                                  
+Processing 50/79: CTL༒                                                          
+Processing 51/79: KumaKuma                                                      
+Processing 52/79: zotch                                                         
+Processing 53/79: Six                                                           
+Processing 54/79: CheapH0                                                       
+Processing 55/79: Commander Cassc                                               
+Processing 56/79: Maximus                                                       
+Processing 57/79: [No1]熊熊霸王熊_Bear Rex                                           
+Processing 58/79: [No1]BA҉D҉BU҉N҉N҉Y×͜×                                         
+Processing 59/79: [No1]熊熊小點心                                                    
+Processing 60/79: [CKK]ʚ香奈兒_CTK_Chanelɞ                                         
+Processing 61/79: [CKK]ʚ小惡魔_CTK_ɞ                                               
+Processing 62/79: [PNG]꧁ᴹᴿ᭄༒SHADOW༒꧂                                            
+Processing 63/79: alpk                                                          
+Processing 64/79: [AgE]代理鱼                                                      
+Processing 65/79: 小天使鱼                                                          
+Processing 66/79: [PNG]鱼鱼鱼                                                      
+Processing 67/79: 沙鱼壳                                                           
+Processing 68/79: [PHX]Frigo                                                    
+Processing 69/79: [EOS]RΛMXIΦN                                                  
+Processing 70/79: [QAD]Athena                                                   
+Processing 71/79: [EOS]BigusDickus                                              
+Processing 72/79: [MVP]schdoel                                                  
+Processing 73/79: [EOS]HelenaGK                                                 
+Processing 74/79: [QAD]Lαԃყ ԃҽ Vҽҽɾ                                             
+Processing 75/79: [QAD]MacPickle                                                
+Processing 76/79: [MVP]뿌뿌잉                                                      
+Processing 77/79: [PHX]portu                                                    
+Processing 78/79: [MVP]Shih 史嘟筆                                                 
+Processing 79/79: 1666 替身鱼                                                      
+成功兑换 / Successfully claimed: 0
+已兑换 / Already claimed: 79
+错误 / Errors: 0
+
+2025-01-23 00:23:56 - DEBUG - 脚本错误: 
+2025-01-23 00:23:56 - DEBUG - Starting new HTTPS connection (1): discord.com:443
+2025-01-23 00:23:57 - DEBUG - https://discord.com:443 "POST /api/webhooks/1324279316753678400/UE26VmbWp_aJkgYCtba_N43WsFsiqV7OQceg-oMByS4lTlk1qB20HB4i9jw2tRgkKhBs HTTP/11" 204 0
+2025-01-23 00:23:57 - INFO - 127.0.0.1 - - [23/Jan/2025 00:23:57] "POST /redeem_giftcode HTTP/1.1" 200 -
+2025-01-23 00:38:03 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.228.37.59:5000
+2025-01-23 00:38:03 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-23 00:38:10 - INFO - 127.0.0.1 - - [23/Jan/2025 00:38:10] "GET / HTTP/1.1" 200 -
+2025-01-23 00:38:13 - INFO - 127.0.0.1 - - [23/Jan/2025 00:38:13] "[31m[1mPOST /redeem_giftcode HTTP/1.1[0m" 400 -
+2025-01-23 00:38:25 - DEBUG - 脚本输出: Processing 79 players for code: 2025TPGSWC
+Processing 1/79: 實沙緒                                                            
+Processing 2/79: 小沙緒                                                            
+Processing 3/79: 魚小 2                                                           
+Processing 4/79: 咳咳                                                             
+Processing 5/79: 咳咳2                                                            
+Processing 6/79: 咳咳3                                                            
+Processing 7/79: 小小魚                                                            
+Processing 8/79: [NEW]小小小魚                                                      
+Processing 9/79: 魚魚                                                             
+Processing 10/79: 小淘氣                                                           
+Processing 11/79: [CKK]ʚ繁星點點_CTK_HoShiɞ                                         
+Processing 12/79: Nino                                                          
+Processing 13/79: 貓貓Tap                                                         
+Processing 14/79: [MVP]FoamCat                                                  
+Processing 15/79: 時空貓                                                           
+Processing 16/79: [mvp]時空喵                                                      
+Processing 17/79: [No1]Cherish                                                  
+Processing 18/79: [No1]Alicey                                                   
+Processing 19/79: [DOG]Gotenks                                                  
+Processing 20/79: [NIX]ᗩᗰᗷᘔOᑎE                                                  
+Processing 21/79: [No1]PSY                                                      
+Processing 22/79: [No1]想入菲菲                                                     
+Processing 23/79: [No1]RURU                                                     
+Processing 24/79: [DOG]Jax                                                      
+Processing 25/79: [No1]Yuyu                                                     
+Processing 26/79: [No1] nino                                                    
+Processing 27/79: 9m88                                                          
+Processing 28/79: [MVP]鱼 yuyu                                                   
+Processing 29/79: xiaoyu1666                                                    
+Processing 30/79: 朗囝ʕ·͡ᴥ፝֟·ʔ                                                    
+Processing 31/79: Mochi 모찌 아이스크림                                                
+Processing 32/79: Freedom                                                       
+Processing 33/79: Guel                                                          
+Processing 34/79: Fury of July                                                  
+Processing 35/79: Winderen                                                      
+Processing 36/79: Luke2015                                                      
+Processing 37/79: 秋天一枝草                                                         
+Processing 38/79: 最有性价比                                                         
+Processing 39/79: Naikaa                                                        
+Processing 40/79: FallenAngel                                                   
+Processing 41/79: Benji                                                         
+Processing 42/79: iamnotokay                                                    
+Processing 43/79: Koala                                                         
+Processing 44/79: Jewels                                                        
+Processing 45/79: Slack                                                         
+Processing 46/79: Little_Yu                                                     
+Processing 47/79: Lord Patato                                                   
+Processing 48/79: Dmytro                                                        
+Processing 49/79: Redbulldozer                                                  
+Processing 50/79: CTL༒                                                          
+Processing 51/79: KumaKuma                                                      
+Processing 52/79: zotch                                                         
+Processing 53/79: Six                                                           
+Processing 54/79: CheapH0                                                       
+Processing 55/79: Commander Cassc                                               
+Processing 56/79: Maximus                                                       
+Processing 57/79: [No1]熊熊霸王熊_Bear Rex                                           
+Processing 58/79: [No1]BA҉D҉BU҉N҉N҉Y×͜×                                         
+Processing 59/79: [No1]熊熊小點心                                                    
+Processing 60/79: [CKK]ʚ香奈兒_CTK_Chanelɞ                                         
+Processing 61/79: [CKK]ʚ小惡魔_CTK_ɞ                                               
+Processing 62/79: [PNG]꧁ᴹᴿ᭄༒SHADOW༒꧂                                            
+Processing 63/79: alpk                                                          
+Processing 64/79: [AgE]代理鱼                                                      
+Processing 65/79: 小天使鱼                                                          
+Processing 66/79: [PNG]鱼鱼鱼                                                      
+Processing 67/79: 沙鱼壳                                                           
+Processing 68/79: [PHX]Frigo                                                    
+Processing 69/79: [EOS]RΛMXIΦN                                                  
+Processing 70/79: [QAD]Athena                                                   
+Processing 71/79: [EOS]BigusDickus                                              
+Processing 72/79: [MVP]schdoel                                                  
+Processing 73/79: [EOS]HelenaGK                                                 
+Processing 74/79: [QAD]Lαԃყ ԃҽ Vҽҽɾ                                             
+Processing 75/79: [QAD]MacPickle                                                
+Processing 76/79: [MVP]뿌뿌잉                                                      
+Processing 77/79: [PHX]portu                                                    
+Processing 78/79: [MVP]Shih 史嘟筆                                                 
+Processing 79/79: 1666 替身鱼                                                      
+成功兑换 / Successfully claimed: 0
+已兑换 / Already claimed: 79
+错误 / Errors: 0
+
+2025-01-23 00:38:25 - DEBUG - 脚本错误: 
+2025-01-23 00:38:25 - DEBUG - Starting new HTTPS connection (1): discord.com:443
+2025-01-23 00:38:27 - DEBUG - https://discord.com:443 "POST /api/webhooks/1324279316753678400/UE26VmbWp_aJkgYCtba_N43WsFsiqV7OQceg-oMByS4lTlk1qB20HB4i9jw2tRgkKhBs HTTP/11" 204 0
+2025-01-23 00:38:27 - INFO - 127.0.0.1 - - [23/Jan/2025 00:38:27] "POST /redeem_giftcode HTTP/1.1" 200 -
+2025-01-23 00:39:40 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.228.37.59:5000
+2025-01-23 00:39:40 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-23 00:39:42 - INFO - 127.0.0.1 - - [23/Jan/2025 00:39:42] "GET / HTTP/1.1" 200 -
+2025-01-23 00:39:48 - DEBUG - 脚本输出: Processing 79 players for code: 2025TPGSWC
+Processing 1/79: 實沙緒                                                            
+Processing 2/79: 小沙緒                                                            
+Processing 3/79: 魚小 2                                                           
+Processing 4/79: 咳咳                                                             
+Processing 5/79: 咳咳2                                                            
+Processing 6/79: 咳咳3                                                            
+Processing 7/79: 小小魚                                                            
+Processing 8/79: [NEW]小小小魚                                                      
+Processing 9/79: 魚魚                                                             
+Processing 10/79: 小淘氣                                                           
+Processing 11/79: [CKK]ʚ繁星點點_CTK_HoShiɞ                                         
+Processing 12/79: Nino                                                          
+Processing 13/79: 貓貓Tap                                                         
+Processing 14/79: [MVP]FoamCat                                                  
+Processing 15/79: 時空貓                                                           
+Processing 16/79: [mvp]時空喵                                                      
+Processing 17/79: [No1]Cherish                                                  
+Processing 18/79: [No1]Alicey                                                   
+Processing 19/79: [DOG]Gotenks                                                  
+Processing 20/79: [NIX]ᗩᗰᗷᘔOᑎE                                                  
+Processing 21/79: [No1]PSY                                                      
+Processing 22/79: [No1]想入菲菲                                                     
+Processing 23/79: [No1]RURU                                                     
+Processing 24/79: [DOG]Jax                                                      
+Processing 25/79: [No1]Yuyu                                                     
+Processing 26/79: [No1] nino                                                    
+Processing 27/79: 9m88                                                          
+Processing 28/79: [MVP]鱼 yuyu                                                   
+Processing 29/79: xiaoyu1666                                                    
+Processing 30/79: 朗囝ʕ·͡ᴥ፝֟·ʔ                                                    
+Processing 31/79: Mochi 모찌 아이스크림                                                
+Processing 32/79: Freedom                                                       
+Processing 33/79: Guel                                                          
+Processing 34/79: Fury of July                                                  
+Processing 35/79: Winderen                                                      
+Processing 36/79: Luke2015                                                      
+Processing 37/79: 秋天一枝草                                                         
+Processing 38/79: 最有性价比                                                         
+Processing 39/79: Naikaa                                                        
+Processing 40/79: FallenAngel                                                   
+Processing 41/79: Benji                                                         
+Processing 42/79: iamnotokay                                                    
+Processing 43/79: Koala                                                         
+Processing 44/79: Jewels                                                        
+Processing 45/79: Slack                                                         
+Processing 46/79: Little_Yu                                                     
+Processing 47/79: Lord Patato                                                   
+Processing 48/79: Dmytro                                                        
+Processing 49/79: Redbulldozer                                                  
+Processing 50/79: CTL༒                                                          
+Processing 51/79: KumaKuma                                                      
+Processing 52/79: zotch                                                         
+Processing 53/79: Six                                                           
+Processing 54/79: CheapH0                                                       
+Processing 55/79: Commander Cassc                                               
+Processing 56/79: Maximus                                                       
+Processing 57/79: [No1]熊熊霸王熊_Bear Rex                                           
+Processing 58/79: [No1]BA҉D҉BU҉N҉N҉Y×͜×                                         
+Processing 59/79: [No1]熊熊小點心                                                    
+Processing 60/79: [CKK]ʚ香奈兒_CTK_Chanelɞ                                         
+Processing 61/79: [CKK]ʚ小惡魔_CTK_ɞ                                               
+Processing 62/79: [PNG]꧁ᴹᴿ᭄༒SHADOW༒꧂                                            
+Processing 63/79: alpk                                                          
+Processing 64/79: [AgE]代理鱼                                                      
+Processing 65/79: 小天使鱼                                                          
+Processing 66/79: [PNG]鱼鱼鱼                                                      
+Processing 67/79: 沙鱼壳                                                           
+Processing 68/79: [PHX]Frigo                                                    
+Processing 69/79: [EOS]RΛMXIΦN                                                  
+Processing 70/79: [QAD]Athena                                                   
+Processing 71/79: [EOS]BigusDickus                                              
+Processing 72/79: [MVP]schdoel                                                  
+Processing 73/79: [EOS]HelenaGK                                                 
+Processing 74/79: [QAD]Lαԃყ ԃҽ Vҽҽɾ                                             
+Processing 75/79: [QAD]MacPickle                                                
+Processing 76/79: [MVP]뿌뿌잉                                                      
+Processing 77/79: [PHX]portu                                                    
+Processing 78/79: [MVP]Shih 史嘟筆                                                 
+Processing 79/79: 1666 替身鱼                                                      
+成功兑换 / Successfully claimed: 0
+已兑换 / Already claimed: 79
+错误 / Errors: 0
+
+2025-01-23 00:39:48 - DEBUG - 脚本错误: 
+2025-01-23 00:39:48 - DEBUG - Starting new HTTPS connection (1): discord.com:443
+2025-01-23 00:39:49 - DEBUG - https://discord.com:443 "POST /api/webhooks/1324279316753678400/UE26VmbWp_aJkgYCtba_N43WsFsiqV7OQceg-oMByS4lTlk1qB20HB4i9jw2tRgkKhBs HTTP/11" 204 0
+2025-01-23 00:39:49 - INFO - 127.0.0.1 - - [23/Jan/2025 00:39:49] "POST /redeem_giftcode HTTP/1.1" 200 -
+2025-01-23 00:44:54 - INFO - 127.0.0.1 - - [23/Jan/2025 00:44:54] "GET / HTTP/1.1" 200 -
+2025-01-23 00:45:05 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.228.37.59:5000
+2025-01-23 00:45:05 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-23 00:45:07 - INFO - 127.0.0.1 - - [23/Jan/2025 00:45:07] "GET / HTTP/1.1" 200 -
+2025-01-23 00:46:08 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.228.37.59:5000
+2025-01-23 00:46:08 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-23 00:46:11 - INFO - 127.0.0.1 - - [23/Jan/2025 00:46:11] "GET / HTTP/1.1" 200 -
+2025-01-23 00:46:21 - DEBUG - 脚本输出: Processing 79 players for code: 2025TPGSWC
+Processing 1/79: 實沙緒                                                            
+Processing 2/79: 小沙緒                                                            
+Processing 3/79: 魚小 2                                                           
+Processing 4/79: 咳咳                                                             
+Processing 5/79: 咳咳2                                                            
+Processing 6/79: 咳咳3                                                            
+Processing 7/79: 小小魚                                                            
+Processing 8/79: [NEW]小小小魚                                                      
+Processing 9/79: 魚魚                                                             
+Processing 10/79: 小淘氣                                                           
+Processing 11/79: [CKK]ʚ繁星點點_CTK_HoShiɞ                                         
+Processing 12/79: Nino                                                          
+Processing 13/79: 貓貓Tap                                                         
+Processing 14/79: [MVP]FoamCat                                                  
+Processing 15/79: 時空貓                                                           
+Processing 16/79: [mvp]時空喵                                                      
+Processing 17/79: [No1]Cherish                                                  
+Processing 18/79: [No1]Alicey                                                   
+Processing 19/79: [DOG]Gotenks                                                  
+Processing 20/79: [NIX]ᗩᗰᗷᘔOᑎE                                                  
+Processing 21/79: [No1]PSY                                                      
+Processing 22/79: [No1]想入菲菲                                                     
+Processing 23/79: [No1]RURU                                                     
+Processing 24/79: [DOG]Jax                                                      
+Processing 25/79: [No1]Yuyu                                                     
+Processing 26/79: [No1] nino                                                    
+Processing 27/79: 9m88                                                          
+Processing 28/79: [MVP]鱼 yuyu                                                   
+Processing 29/79: xiaoyu1666                                                    
+Processing 30/79: 朗囝ʕ·͡ᴥ፝֟·ʔ                                                    
+Processing 31/79: Mochi 모찌 아이스크림                                                
+Processing 32/79: Freedom                                                       
+Processing 33/79: Guel                                                          
+Processing 34/79: Fury of July                                                  
+Processing 35/79: Winderen                                                      
+Processing 36/79: Luke2015                                                      
+Processing 37/79: 秋天一枝草                                                         
+Processing 38/79: 最有性价比                                                         
+Processing 39/79: Naikaa                                                        
+Processing 40/79: FallenAngel                                                   
+Processing 41/79: Benji                                                         
+Processing 42/79: iamnotokay                                                    
+Processing 43/79: Koala                                                         
+Processing 44/79: Jewels                                                        
+Processing 45/79: Slack                                                         
+Processing 46/79: Little_Yu                                                     
+Processing 47/79: Lord Patato                                                   
+Processing 48/79: Dmytro                                                        
+Processing 49/79: Redbulldozer                                                  
+Processing 50/79: CTL༒                                                          
+Processing 51/79: KumaKuma                                                      
+Processing 52/79: zotch                                                         
+Processing 53/79: Six                                                           
+Processing 54/79: CheapH0                                                       
+Processing 55/79: Commander Cassc                                               
+Processing 56/79: Maximus                                                       
+Processing 57/79: [No1]熊熊霸王熊_Bear Rex                                           
+Processing 58/79: [No1]BA҉D҉BU҉N҉N҉Y×͜×                                         
+Processing 59/79: [No1]熊熊小點心                                                    
+Processing 60/79: [CKK]ʚ香奈兒_CTK_Chanelɞ                                         
+Processing 61/79: [CKK]ʚ小惡魔_CTK_ɞ                                               
+Processing 62/79: [PNG]꧁ᴹᴿ᭄༒SHADOW༒꧂                                            
+Processing 63/79: alpk                                                          
+Processing 64/79: [AgE]代理鱼                                                      
+Processing 65/79: 小天使鱼                                                          
+Processing 66/79: [PNG]鱼鱼鱼                                                      
+Processing 67/79: 沙鱼壳                                                           
+Processing 68/79: [PHX]Frigo                                                    
+Processing 69/79: [EOS]RΛMXIΦN                                                  
+Processing 70/79: [QAD]Athena                                                   
+Processing 71/79: [EOS]BigusDickus                                              
+Processing 72/79: [MVP]schdoel                                                  
+Processing 73/79: [EOS]HelenaGK                                                 
+Processing 74/79: [QAD]Lαԃყ ԃҽ Vҽҽɾ                                             
+Processing 75/79: [QAD]MacPickle                                                
+Processing 76/79: [MVP]뿌뿌잉                                                      
+Processing 77/79: [PHX]portu                                                    
+Processing 78/79: [MVP]Shih 史嘟筆                                                 
+Processing 79/79: 1666 替身鱼                                                      
+成功兑换 / Successfully claimed: 0
+已兑换 / Already claimed: 79
+错误 / Errors: 0
+
+2025-01-23 00:46:21 - DEBUG - 脚本错误: 
+2025-01-23 00:46:21 - DEBUG - Starting new HTTPS connection (1): discord.com:443
+2025-01-23 00:46:23 - DEBUG - https://discord.com:443 "POST /api/webhooks/1324279316753678400/UE26VmbWp_aJkgYCtba_N43WsFsiqV7OQceg-oMByS4lTlk1qB20HB4i9jw2tRgkKhBs HTTP/11" 204 0
+2025-01-23 00:46:23 - INFO - 127.0.0.1 - - [23/Jan/2025 00:46:23] "POST /redeem_giftcode HTTP/1.1" 200 -
+2025-01-23 00:49:25 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.228.37.59:5000
+2025-01-23 00:49:25 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-23 00:49:28 - INFO - 127.0.0.1 - - [23/Jan/2025 00:49:28] "GET / HTTP/1.1" 200 -
+2025-01-23 00:53:01 - INFO - 127.0.0.1 - - [23/Jan/2025 00:53:01] "GET / HTTP/1.1" 200 -
+2025-01-23 00:53:17 - INFO - 127.0.0.1 - - [23/Jan/2025 00:53:17] "GET / HTTP/1.1" 200 -
+2025-01-23 00:53:19 - INFO - 127.0.0.1 - - [23/Jan/2025 00:53:19] "GET / HTTP/1.1" 200 -
+2025-01-23 00:53:20 - INFO - 127.0.0.1 - - [23/Jan/2025 00:53:20] "GET / HTTP/1.1" 200 -
+2025-01-23 00:53:21 - INFO - 127.0.0.1 - - [23/Jan/2025 00:53:21] "GET / HTTP/1.1" 200 -
+2025-01-23 02:31:01 - INFO - 127.0.0.1 - - [23/Jan/2025 02:31:01] "GET / HTTP/1.1" 200 -
+2025-01-23 02:31:24 - INFO - 127.0.0.1 - - [23/Jan/2025 02:31:24] "[31m[1mPOST /redeem_giftcode HTTP/1.1[0m" 400 -
+2025-01-23 02:31:32 - DEBUG - 脚本输出: Processing 79 players for code: ggg
+Processing 1/79: 實沙緒                                                            
+Fatal error: CDK NOT FOUND.
+
+2025-01-23 02:31:32 - DEBUG - 脚本错误: 
+2025-01-23 02:31:32 - DEBUG - Starting new HTTPS connection (1): discord.com:443
+2025-01-23 02:31:33 - DEBUG - https://discord.com:443 "POST /api/webhooks/1324279316753678400/UE26VmbWp_aJkgYCtba_N43WsFsiqV7OQceg-oMByS4lTlk1qB20HB4i9jw2tRgkKhBs HTTP/11" 204 0
+2025-01-23 02:31:33 - INFO - 127.0.0.1 - - [23/Jan/2025 02:31:33] "POST /redeem_giftcode HTTP/1.1" 200 -
+2025-01-23 06:50:51 - INFO - 127.0.0.1 - - [23/Jan/2025 06:50:51] "[31m[1mGET / HTTP/1.1[0m" 401 -
+2025-01-23 06:50:57 - INFO - 127.0.0.1 - - [23/Jan/2025 06:50:57] "GET / HTTP/1.1" 200 -
+2025-01-23 06:50:59 - INFO - 127.0.0.1 - - [23/Jan/2025 06:50:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-23 06:53:01 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.228.37.59:5000
+2025-01-23 06:53:01 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-23 06:53:05 - INFO - 127.0.0.1 - - [23/Jan/2025 06:53:05] "GET / HTTP/1.1" 200 -
+2025-01-23 06:53:07 - INFO - 127.0.0.1 - - [23/Jan/2025 06:53:07] "GET / HTTP/1.1" 200 -
+2025-01-23 06:53:11 - INFO - 127.0.0.1 - - [23/Jan/2025 06:53:11] "[31m[1mPOST /redeem_giftcode HTTP/1.1[0m" 400 -

@@ -6,9 +6,9 @@ It handles progress tracking and resumption capabilities to avoid reprocessing p
 import argparse
 import hashlib
 import json
+import os
 import sys
 import time
-from os.path import exists
 from typing import Dict, List
 
 import requests
@@ -22,6 +22,11 @@ HEADERS = {"Content-Type": "application/x-www-form-urlencoded", "Accept": "appli
 STATUS_SUCCESS = "Successful"
 STATUS_FAILURE = "Unsuccessful"
 SAVE_INTERVAL = 10  # Save progress every 10 players processed
+
+
+def get_base_dir() -> str:
+    """Get the directory where the script is located"""
+    return os.path.dirname(os.path.abspath(__file__))
 
 
 def parse_args() -> argparse.Namespace:
@@ -42,22 +47,28 @@ def parse_args() -> argparse.Namespace:
 
 def load_json_file(filename: str) -> List[Dict]:
     """Load data from a JSON file."""
+    base_dir = get_base_dir()
+    file_path = os.path.join(base_dir, filename)
+    
     try:
-        with open(filename, "r", encoding="utf-8") as f:
+        with open(file_path, "r", encoding="utf-8") as f:
             return json.load(f)
     except FileNotFoundError:
         if filename == "results.json":
             return []  # Results file is optional
-        print(f"Error: Required file {filename} not found!")
+        print(f"Error: Required file {file_path} not found!")
         sys.exit(1)
     except json.JSONDecodeError:
-        print(f"Error: Invalid JSON in {filename}!")
+        print(f"Error: Invalid JSON in {file_path}!")
         sys.exit(1)
 
 
 def save_results(data: List[Dict], filename: str) -> None:
     """Save results to JSON file."""
-    with open(filename, "w", encoding="utf-8") as f:
+    base_dir = get_base_dir()
+    file_path = os.path.join(base_dir, filename)
+    
+    with open(file_path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
 
 
@@ -155,7 +166,7 @@ def process_player(player: Dict, code: str, session: Session, result: Dict, coun
 
 def main():
     """Main execution flow."""
-    global args  # pylint: disable=global-variable-undefined
+    global args
     args = parse_args()
     
     # Initialize data stores
@@ -194,7 +205,7 @@ def main():
         # Final save to capture any remaining changes
         save_results(all_results, args.results_file)
     
-    # Print summary (修复此处变量名)
+    # Print summary
     print(
         f"\n成功兑换 / Successfully claimed: {counters['success']}"
         f"\n已兑换 / Already claimed: {counters['already_claimed']}"
